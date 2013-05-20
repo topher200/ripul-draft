@@ -11,7 +11,6 @@ require 'csv'
 players_filename = "#{Rails.root}/lib/assets/ripul.csv"
 num_players = 0
 CSV.foreach(players_filename, :headers => :first_row) do |player|
-  # puts "processing #{player['first']} #{player['last']}"
   p = Player.create(:first_name => player['first'], :last_name => player['last'],
                     :age => player['age'], :gender => player['gender'])
   p.save
@@ -22,8 +21,20 @@ puts "processed #{num_players} players"
 teams_filename = "#{Rails.root}/lib/assets/teams.csv"
 num_teams = 0
 CSV.foreach(teams_filename, :headers => :first_row) do |team|
-  # puts "processing #{team['color']}"
-  team = Team.create(:color => team['color'])
+  # Create the new team
+  new_team = Team.create(:color => team['color'])
   num_teams += 1
+
+  # add each captain to the new team
+  ['captain1', 'captain2'].each do |captain|
+    first_name, last_name = team[captain].split(' ', 2)
+    player_list = Player.where(:first_name => first_name, :last_name => last_name)
+    if player_list.length != 1
+      puts "error processing captain #{first_name} #{last_name}"
+    end
+    player = player_list.first
+    player.team = new_team
+    player.save
+  end
 end
 puts "processed #{num_teams} teams"
