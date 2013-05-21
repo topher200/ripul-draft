@@ -39,4 +39,4 @@ gem 'jquery-rails'
 
 gem 'pry-rails', :group => :development
 
-gem 'less-bootstrap-rails'
+gem 'less-rails-bootstrap'
