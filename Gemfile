@@ -39,4 +39,4 @@ gem 'jquery-rails'
 
 gem 'pry-rails', :group => :development
 
-gem 'less-rails-bootstrap'
+gem 'twitter-bootstrap-rails'
