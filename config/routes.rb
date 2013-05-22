@@ -1,7 +1,5 @@
 RipulDraft::Application.routes.draw do
   resources :baggages
-
-
   resources :picks
   resources :players
   resources :teams
