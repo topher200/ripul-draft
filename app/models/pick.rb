@@ -3,8 +3,10 @@ class Pick < ActiveRecord::Base
   belongs_to :player
   attr_accessible :automatic, :gender, :number
 
-  def males
-    return Pick.where("gender = M")
-  def females
-    return Pick.where("gender = F")
+  def self.males
+    return find_by_gender "M"
+  end
+  def self.females
+    return find_by_gender "F"
+  end
 end

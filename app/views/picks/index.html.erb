@@ -1,7 +1,6 @@
 <h1>Draft Picks</h1>
-<% debug @picks_by_gender %>
 
-<% @picks_by_gender.keys do |gender| %>
+<%= @picks_by_gender.keys.each do |gender| %>
 <h3>gender</h3>
 <table>
   <tr>
