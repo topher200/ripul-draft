@@ -2,7 +2,10 @@ class PicksController < ApplicationController
   # GET /picks
   # GET /picks.json
   def index
-    @picks = Pick.all
+    puts "PRINTING!!!!!!!!!!!!!!!!!!!!!!!!"
+    @picks_by_gender = {"Male" => Pick.males, "Female" => Pick.females}
+    @asdf = "asdf"
+    puts @picks_by_gender
 
     respond_to do |format|
       format.html # index.html.erb

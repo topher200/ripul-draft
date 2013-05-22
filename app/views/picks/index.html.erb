@@ -1,30 +1,25 @@
-<h1>Listing picks</h1>
+<h1>Draft Picks</h1>
+<% debug @picks_by_gender %>
 
+<% @picks_by_gender.keys do |gender| %>
+<h3>gender</h3>
 <table>
   <tr>
-    <th>Team</th>
-    <th>Player</th>
-    <th>Gender</th>
-    <th>Automatic</th>
     <th>Number</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Player</th>
+    <th>Team</th>
+    <th>Automatic Pick?</th>
   </tr>
-
-<% @picks.each do |pick| %>
+  <% @picks_by_gender[gender].each do |pick| %>
   <tr>
-    <td><%= pick.team %></td>
-    <td><%= pick.player %></td>
-    <td><%= pick.gender %></td>
-    <td><%= pick.automatic %></td>
     <td><%= pick.number %></td>
-    <td><%= link_to 'Show', pick %></td>
-    <td><%= link_to 'Edit', edit_pick_path(pick) %></td>
-    <td><%= link_to 'Destroy', pick, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= pick.player %></td>
+    <td><%= pick.team %></td>
+    <td><%= pick.automatic %></td>
   </tr>
-<% end %>
+  <% end %>
 </table>
+<% end %>
 
 <br />
 
