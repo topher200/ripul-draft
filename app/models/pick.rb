@@ -9,4 +9,16 @@ class Pick < ActiveRecord::Base
   def self.females
     return find_all_by_gender "F"
   end
+
+  def self.next_pick
+    return Pick.where("player_id IS NULL").order("gender DESC").order("number").first
+  end
+
+  def gender_to_string
+    if gender == "F"
+      return "Female"
+    else
+      return "Male"
+    end
+  end
 end
