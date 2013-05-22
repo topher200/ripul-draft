@@ -3,6 +3,7 @@ class PicksController < ApplicationController
   # GET /picks.json
   def index
     @picks_by_gender = { :Male => Pick.males, :Female => Pick.females }
+    @admin = cookies[:admin]
 
     respond_to do |format|
       format.html # index.html.erb
@@ -73,6 +74,9 @@ class PicksController < ApplicationController
   # DELETE /picks/1.json
   def destroy
     @pick = Pick.find(params[:id])
+    player = Player.find(@pick.player)
+    player.team = nil
+    player.save
     @pick.destroy
 
     respond_to do |format|
