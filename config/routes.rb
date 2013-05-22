@@ -1,11 +1,8 @@
 RipulDraft::Application.routes.draw do
   resources :picks
-
-
   resources :players
-
-
   resources :teams
+  match "draft" => "draft#index"
 
 
   # The priority is based upon order of creation:
