@@ -1,4 +1,7 @@
 RipulDraft::Application.routes.draw do
+  resources :picks
+
+
   resources :players
 
 
