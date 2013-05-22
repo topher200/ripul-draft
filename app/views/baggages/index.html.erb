@@ -1,0 +1,27 @@
+<h1>Listing baggages</h1>
+
+<table>
+  <tr>
+    <th>Player1</th>
+    <th>Player2</th>
+    <th>Pick to lose</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @baggages.each do |baggage| %>
+  <tr>
+    <td><%= baggage.player1 %></td>
+    <td><%= baggage.player2 %></td>
+    <td><%= baggage.pick_to_lose %></td>
+    <td><%= link_to 'Show', baggage %></td>
+    <td><%= link_to 'Edit', edit_baggage_path(baggage) %></td>
+    <td><%= link_to 'Destroy', baggage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Baggage', new_baggage_path %>
