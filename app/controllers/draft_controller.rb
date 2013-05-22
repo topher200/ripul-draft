@@ -18,6 +18,8 @@ class DraftController < ApplicationController
                           "##{@next_pick.number} " \
                           "to team #{@next_pick.team.color}"
     @players = Player.undrafted
+    logger.error cookies[:admin]
+    @admin = cookies[:admin]
   end
 
   def draft_player(player)
@@ -25,5 +27,14 @@ class DraftController < ApplicationController
     @next_pick.save
     player.team = @next_pick.team
     player.save
+  end
+
+  def set_admin
+    if cookies[:admin]
+      cookies.delete(:admin)
+    else
+      cookies[:admin] = true
+    end
+    redirect_to draft_path
   end
 end
