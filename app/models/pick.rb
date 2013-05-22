@@ -4,10 +4,14 @@ class Pick < ActiveRecord::Base
   attr_accessible :automatic, :gender, :number
 
   def self.males
-    return find_all_by_gender "M"
+    return self.all_completed_picks.find_all_by_gender "M"
   end
   def self.females
-    return find_all_by_gender "F"
+    return self.all_completed_picks.find_all_by_gender "F"
+  end
+
+  def self.all_completed_picks
+    return Pick.where("player_id IS NOT NULL")
   end
 
   def self.next_pick
