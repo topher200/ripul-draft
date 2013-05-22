@@ -17,8 +17,7 @@ class DraftController < ApplicationController
     @information_string = "Drafting #{@next_pick.gender_to_string} " \
                           "##{@next_pick.number} " \
                           "to team #{@next_pick.team.color}"
-    @players = Player.undrafted
-    logger.error cookies[:admin]
+    @players = Player.undrafted(@next_pick.gender)
     @admin = cookies[:admin]
   end
 

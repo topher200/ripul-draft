@@ -13,7 +13,7 @@ class Player < ActiveRecord::Base
     return Player.where("first_name = ? AND last_name = ?", first_name, last_name).first
   end
     
-  def self.undrafted
-    return Player.where("team_id IS NULL")
+  def self.undrafted(gender)
+    return Player.where("team_id IS NULL AND gender IS ?", gender)
   end
 end
