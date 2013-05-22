@@ -1,0 +1,50 @@
+gender,number,color
+M,1,Orange
+M,2,Navy
+M,3,Red
+M,4,Graphite
+M,5,Gold
+M,6,Orange
+M,7,Red
+M,8,Navy
+M,9,Pink
+M,10,Silver
+M,11,White
+M,12,Forest
+M,13,Kelly
+M,14,Royal
+M,15,Graphite
+M,16,Safety Yellow
+M,17,Purple
+M,18,Orange
+M,19,Safety Orange
+M,20,Pink
+M,21,Royal
+M,22,Forest
+M,23,Red
+M,24,Safety Yellow
+M,25,Graphite
+M,26,White
+M,27,Purple
+M,28,Kelly
+M,29,Orange
+M,30,Navy
+M,31,Safety Orange
+M,32,Silver
+M,33,Gold
+M,34,Gold
+F,1,Silver
+F,2,Pink
+F,3,Safety yellow
+F,4,Navy
+F,5,Safety Orange
+F,6,Gold
+F,7,Graphite
+F,8,Royal
+F,9,Pink
+F,10,Kelly
+F,11,White
+F,12,Forest
+F,13,Red
+F,14,Purple
+F,15,Purple

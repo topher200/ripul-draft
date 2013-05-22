@@ -38,3 +38,13 @@ CSV.foreach(teams_filename, :headers => :first_row) do |team|
   end
 end
 puts "processed #{num_teams} teams"
+
+picks_filename = "#{Rails.root}/lib/assets/picks.csv"
+num_picks = 0
+CSV.foreach(picks_filename, :headers => :first_row) do |pick|
+  new_pick = Pick.create(:gender => pick['gender'], :number => pick['number'])
+  new_pick.team = Team.find_by_color(pick['color'])
+  new_pick.save
+  num_picks += 1
+end
+puts "processed #{num_picks} picks"
