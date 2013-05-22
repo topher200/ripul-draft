@@ -11,7 +11,7 @@ class Pick < ActiveRecord::Base
   end
 
   def self.next_pick
-    return Pick.where("player_id IS NULL").order("gender DESC").order("number").first
+    return Pick.where("player_id IS NULL").order("gender DESC").order("number").limit(1).first
   end
 
   def gender_to_string
