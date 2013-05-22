@@ -11,7 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130520101828) do
+ActiveRecord::Schema.define(:version => 20130522010515) do
+
+  create_table "picks", :force => true do |t|
+    t.integer  "team_id"
+    t.integer  "player_id"
+    t.string   "gender"
+    t.boolean  "automatic"
+    t.integer  "number"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "picks", ["player_id"], :name => "index_picks_on_player_id"
+  add_index "picks", ["team_id"], :name => "index_picks_on_team_id"
 
   create_table "players", :force => true do |t|
     t.string   "first_name"
