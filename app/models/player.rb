@@ -2,7 +2,7 @@ class Player < ActiveRecord::Base
   belongs_to :team
   has_many :baggages
   has_one :pick
-  attr_accessible :age, :first_name, :gender, :last_name
+  attr_accessible :age, :first_name, :gender, :last_name, :ripul_id_number
 
   def name
     return self.first_name + " " + self.last_name
