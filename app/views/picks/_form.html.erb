@@ -13,11 +13,7 @@
 
   <div class="field">
     <%= f.label :team %><br />
-    <%= f.text_field :team %>
-  </div>
-  <div class="field">
-    <%= f.label :player %><br />
-    <%= f.text_field :player %>
+    <%= f.collection_select :team_id, Team.all, :id, :color %>
   </div>
   <div class="field">
     <%= f.label :gender %><br />

@@ -1,7 +1,7 @@
 class Pick < ActiveRecord::Base
   belongs_to :team
   belongs_to :player
-  attr_accessible :automatic, :gender, :number
+  attr_accessible :automatic, :gender, :number, :team_id
 
   def self.males
     return self.all_completed_picks.find_all_by_gender "M"
