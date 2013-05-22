@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130522010515) do
+ActiveRecord::Schema.define(:version => 20130522055611) do
+
+  create_table "baggages", :force => true do |t|
+    t.integer  "player1_id"
+    t.integer  "player2_id"
+    t.string   "pick_to_lose"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "baggages", ["player1_id"], :name => "index_baggages_on_player1_id"
+  add_index "baggages", ["player2_id"], :name => "index_baggages_on_player2_id"
 
   create_table "picks", :force => true do |t|
     t.integer  "team_id"
