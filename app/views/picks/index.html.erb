@@ -8,14 +8,12 @@
       <th>Number</th>
       <th>Player</th>
       <th>Team</th>
-      <th>Automatic Pick?</th>
     </tr>
     <% @picks_by_gender[gender].each do |pick| %>
     <tr>
       <td><%= pick.number %></td>
       <td><%= pick.player.name %></td>
       <td><%= pick.team.color %></td>
-      <td><%= pick.automatic %></td>
     </tr>
     <% end %>
   </table>
