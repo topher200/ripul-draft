@@ -4,12 +4,8 @@ class DraftController < ApplicationController
 
     drafted_player_id = params[:player]
     if drafted_player_id
-      logger.debug "drafting player #{Player.find(drafted_player_id).name}"
       player = Player.find(drafted_player_id)
-      @next_pick.player = player
-      @next_pick.save
-      player.team = @next_pick.team
-      player.save
+      self.draft_player(player)
       redirect_to draft_path
     end
 
@@ -18,5 +14,13 @@ class DraftController < ApplicationController
                           "##{@next_pick.number} " \
                           "to team #{@next_pick.team.color}"
     @players = Player.undrafted
+  end
+
+  def draft_player(player)
+    logger.debug "drafting player #{Player.find(drafted_player_id).name}"
+    @next_pick.player = player
+    @next_pick.save
+    player.team = @next_pick.team
+    player.save
   end
 end
