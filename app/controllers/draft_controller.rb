@@ -27,13 +27,4 @@ class DraftController < ApplicationController
     player.team = @next_pick.team
     player.save
   end
-
-  def set_admin
-    if cookies[:admin]
-      cookies.delete(:admin)
-    else
-      cookies[:admin] = true
-    end
-    redirect_to draft_path
-  end
 end

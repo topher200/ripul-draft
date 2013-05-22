@@ -5,7 +5,8 @@ RipulDraft::Application.routes.draw do
   resources :teams
 
   get "draft" => "draft#index"
-  get "draft/admin" => "draft#set_admin"
+
+  get "admin" => "application#set_admin"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
