@@ -1,7 +1,14 @@
 class Player < ActiveRecord::Base
   belongs_to :team
+  has_many :baggages
   attr_accessible :age, :first_name, :gender, :last_name
+
   def name
     return self.first_name + " " + self.last_name
+  end
+
+  def self.find_by_name(name)
+    first_name, last_name = name.split
+    return Player.where("first_name = ? AND last_name = ?", first_name, last_name).first
   end
 end

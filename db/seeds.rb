@@ -48,3 +48,14 @@ CSV.foreach(picks_filename, :headers => :first_row) do |pick|
   num_picks += 1
 end
 puts "processed #{num_picks} picks"
+
+baggages_filename = "#{Rails.root}/lib/assets/baggages.csv"
+num_baggages = 0
+CSV.foreach(baggages_filename, :headers => :first_row) do |baggage|
+  new_baggage = Baggage.create(:pick_to_lose => baggage['pick_to_lose'])
+  # new_baggage.player1 = Player.find_by_name(baggage['player1'])
+  # new_baggage.player2 = Player.find_by_name(baggage['player2'])
+  new_baggage.save
+  num_baggages += 1
+end
+puts "processed #{num_baggages} baggages"
