@@ -1,25 +1,23 @@
 <h1>Draft Picks</h1>
 
+<div class="span9">
 <% @picks_by_gender.keys.each do |gender| %>
 <h3><%= gender %></h3>
-<table>
-  <tr>
-    <th>Number</th>
-    <th>Player</th>
-    <th>Team</th>
-    <th>Automatic Pick?</th>
-  </tr>
-  <% @picks_by_gender[gender].each do |pick| %>
-  <tr>
-    <td><%= pick.number %></td>
-    <td><%= pick.player %></td>
-    <td><%= pick.team.color %></td>
-    <td><%= pick.automatic %></td>
-  </tr>
-  <% end %>
-</table>
+  <table class="table table-striped table-bordered">
+    <tr>
+      <th>Number</th>
+      <th>Player</th>
+      <th>Team</th>
+      <th>Automatic Pick?</th>
+    </tr>
+    <% @picks_by_gender[gender].each do |pick| %>
+    <tr>
+      <td><%= pick.number %></td>
+      <td><%= pick.player.name %></td>
+      <td><%= pick.team.color %></td>
+      <td><%= pick.automatic %></td>
+    </tr>
+    <% end %>
+  </table>
 <% end %>
-
-<br />
-
-<%= link_to 'New Pick', new_pick_path %>
+</div>
