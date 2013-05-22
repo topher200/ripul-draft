@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  player_one: 
-  player_two: 
+  player_one: one
+  player_two: two
   pick_to_lose: MyString
 
 two:
-  player_one: 
-  player_two: 
+  player_one: two
+  player_two: one
   pick_to_lose: MyString
