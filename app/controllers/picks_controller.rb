@@ -73,11 +73,13 @@ class PicksController < ApplicationController
   # DELETE /picks/1
   # DELETE /picks/1.json
   def destroy
+    # We don't destroy, we just undo the pick
     @pick = Pick.find(params[:id])
     player = Player.find(@pick.player)
     player.team = nil
     player.save
-    @pick.destroy
+    @pick.player = nil
+    @pick.save
 
     respond_to do |format|
       format.html { redirect_to picks_url }
