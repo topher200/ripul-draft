@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Player one:</b>
+  <%= @baggage.player_one %>
+</p>
+
+<p>
+  <b>Player two:</b>
+  <%= @baggage.player_two %>
+</p>
+
+<p>
+  <b>Pick to lose:</b>
+  <%= @baggage.pick_to_lose %>
+</p>
+
+
+<%= link_to 'Edit', edit_baggage_path(@baggage) %> |
+<%= link_to 'Back', baggages_path %>

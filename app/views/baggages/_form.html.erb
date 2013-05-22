@@ -1,0 +1,29 @@
+<%= form_for(@baggage) do |f| %>
+  <% if @baggage.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@baggage.errors.count, "error") %> prohibited this baggage from being saved:</h2>
+
+      <ul>
+      <% @baggage.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :player_one %><br />
+    <%= f.text_field :player_one %>
+  </div>
+  <div class="field">
+    <%= f.label :player_two %><br />
+    <%= f.text_field :player_two %>
+  </div>
+  <div class="field">
+    <%= f.label :pick_to_lose %><br />
+    <%= f.text_field :pick_to_lose %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
