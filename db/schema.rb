@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130522082132) do
+ActiveRecord::Schema.define(:version => 20130522113803) do
 
   create_table "baggages", :force => true do |t|
     t.integer  "player_one_id"
@@ -43,8 +43,9 @@ ActiveRecord::Schema.define(:version => 20130522082132) do
     t.integer  "age"
     t.integer  "team_id"
     t.string   "gender"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.integer  "ripul_id_number"
   end
 
   add_index "players", ["team_id"], :name => "index_players_on_team_id"
