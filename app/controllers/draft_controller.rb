@@ -4,7 +4,10 @@ class DraftController < ApplicationController
 
     drafted_player_id = params[:player]
     if drafted_player_id
-      logger.debug "drafting player #{Player.find(drafted_player_id).name}"
+      logger.info "drafting player #{Player.find(drafted_player_id).name} " \
+                   "for pick #{@next_pick.number} to team #{@next_pick.team.color}"
+      flash[:notice] = "Drafted player #{Player.find(drafted_player_id).name} " \
+                       "to #{@next_pick.team.color}"
       player = Player.find(drafted_player_id)
       self.draft_player(player)
       redirect_to draft_path
