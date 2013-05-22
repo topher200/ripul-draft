@@ -5,11 +5,13 @@
 <table class="table table-striped">
   <tr>
     <th>Player</th>
+    <th>Age</th>
     <th>Draft</th>
   </tr>
   <% @players.each do |player| %>
   <tr>
     <td><%= player.name %></td>
+    <td><%= player.age %></td>
     <td><%= link_to 'Draft player', draft_path(:player => player) %></td>
   </tr>
   <% end %>
