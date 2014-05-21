@@ -13,7 +13,7 @@ with open('players.csv', 'r') as file:
             num_females += 1
         else:
             print "error processing line: {}".format(line)
-# We don't draft any captains, save for two of the males
+# We don't draft any captains, except for two of the males
 print "males: {}. drafting {}".format(num_males, num_males - 16 + 2)
 print "females: {}. drafting {}".format(num_females, num_females - 16)
 
