@@ -12,7 +12,11 @@
     <% @picks_by_gender[gender].each do |pick| %>
     <tr>
       <td><%= pick.number %></td>
-      <td><%= pick.player.name %></td>
+      <td>
+        <% if pick.player %>
+          <%= pick.player.name %>
+        <% end %>
+      </td>
       <td><%= pick.team.color %></td>
       <% if @admin %>
         <td><%= link_to 'Destroy', pick, method: :delete, data: { confirm: 'Are you sure?' } %></td>
