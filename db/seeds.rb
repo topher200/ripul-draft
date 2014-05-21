@@ -18,13 +18,12 @@ CSV.foreach(players_filename, :headers => :first_row) do |player|
   num_players += 1
 end
 puts "processed #{num_players} players"
+puts "processed #{Player.undrafted('M').count} male players and #{Player.undrafted('F').count} female players"
 
 teams_filename = "#{Rails.root}/lib/assets/teams.csv"
-num_teams = 0
 CSV.foreach(teams_filename, :headers => :first_row) do |team|
   # Create the new team
   new_team = Team.create(:color => team['color'])
-  num_teams += 1
 
   # add each captain to the new team
   ['captain1', 'captain2'].each do |captain|
@@ -42,7 +41,7 @@ CSV.foreach(teams_filename, :headers => :first_row) do |team|
     player.save
   end
 end
-puts "processed #{num_teams} teams"
+puts "processed #{Team.all.count} teams"
 
 picks_filename = "#{Rails.root}/lib/assets/picks.csv"
 num_male_picks = 0
@@ -56,7 +55,7 @@ CSV.foreach(picks_filename, :headers => :first_row) do |pick|
     num_female_picks += 1
     pick_number = num_female_picks
   else
-    puts "error processing gender of #{pick}"
+    puts "error processing gender of pick #{pick}"
   end
   new_pick = Pick.create(:gender => pick['gender'], :number => pick_number)
   new_pick.team = Team.find_by_color(pick['color'])
