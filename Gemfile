@@ -18,3 +18,5 @@ gem 'jquery-rails'
 gem 'pry-rails', :group => :development
 
 gem 'twitter-bootstrap-rails'
+
+gem 'thin'
