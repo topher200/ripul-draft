@@ -28,6 +28,10 @@ CSV.foreach(teams_filename, :headers => :first_row) do |team|
 
   # add each captain to the new team
   ['captain1', 'captain2'].each do |captain|
+    if team[captain] == ''
+      puts "skipping blank captain #{captain} for #{team['color']}"
+      next
+    end
     first_name, last_name = team[captain].split(' ', 2)
     player_list = Player.where(:first_name => first_name, :last_name => last_name)
     if player_list.length != 1
