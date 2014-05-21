@@ -28,7 +28,7 @@ CSV.foreach(teams_filename, :headers => :first_row) do |team|
 
   # add each captain to the new team
   ['captain1', 'captain2'].each do |captain|
-    if team[captain] == ''
+    if team[captain] == nil
       puts "skipping blank captain #{captain} for #{team['color']}"
       next
     end
