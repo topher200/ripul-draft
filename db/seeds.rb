@@ -21,27 +21,20 @@ puts "processed #{num_players} players"
 puts "processed #{Player.undrafted('M').count} male players and #{Player.undrafted('F').count} female players"
 
 teams_filename = "#{Rails.root}/lib/assets/teams.csv"
-CSV.foreach(teams_filename, :headers => :first_row) do |team|
-  # Create the new team
-  new_team = Team.create(:color => team['color'])
+CSV.foreach(teams_filename, :headers => :first_row) do |row|
+  # Create the new team if it doesn't exist
+  new_team = Team.find_or_create_by_color(:color => row['team'])
 
-  # add each captain to the new team
-  ['captain1', 'captain2'].each do |captain|
-    if team[captain] == nil
-      puts "skipping blank captain #{captain} for #{team['color']}"
-      next
-    end
-    first_name, last_name = team[captain].split(' ', 2)
-    player_list = Player.where(:first_name => first_name, :last_name => last_name)
-    if player_list.length == 0
-      puts "ERROR: unable to find captain #{first_name} #{last_name}"
-    elsif player_list.length > 1
-      puts "ERROR: found duplicate of captain #{first_name} #{last_name}"
-    end
-    player = player_list.first
-    player.team = new_team
-    player.save
+  # add captain to the new team
+  player_list = Player.where(:first_name => row['first_name'], :last_name => row['last_name'])
+  if player_list.length == 0
+    puts "ERROR: unable to find captain #{row['first_name']} #{row['last_name']}"
+  elsif player_list.length > 1
+    puts "ERROR: found duplicate of captain #{row['first_name']} #{row['last_name']}"
   end
+  player = player_list.first
+  player.team = new_team
+  player.save
 end
 puts "processed #{Team.all.count} teams"
 
