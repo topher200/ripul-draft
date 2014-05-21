@@ -19,10 +19,15 @@ class DraftController < ApplicationController
     end
 
     @next_pick = Pick.next_pick
-    @information_string = "Drafting #{@next_pick.gender_to_string} " \
-                          "##{@next_pick.number} " \
-                          "to team #{@next_pick.team.color}"
-    @players = Player.undrafted(@next_pick.gender)
+    if @next_pick != nil
+      @information_string = "Drafting #{@next_pick.gender_to_string} " \
+                            "##{@next_pick.number} " \
+                            "to team #{@next_pick.team.color}"
+      @players = Player.undrafted(@next_pick.gender)
+    else
+      @information_string = "Done drafting!"
+      @players = []
+    end
     @admin = cookies[:admin]
   end
 
