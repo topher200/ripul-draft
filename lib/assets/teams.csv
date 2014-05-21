@@ -1,17 +1,31 @@
-captain1,captain2,color
-Emily Jensen,Sam Stefanik,Navy
-Jared DiMascio,Harriet Booth,Forest
-Carrie Gill,Ezra Lichtman,Hot Pink
-Michelle Kirms,,Graphite
-Perry Gast,Jamie Rhodes,Lime
-Jodi Robert,Nick Logler,Red
-Karen Babbitt,Donnelly Roberts,Kelly
-Kayla Rivard,Garrett Braun,Maroon
-Justine Bucci,Daniel Gruber,Vegas
-Annie Fisher,,Safety Orange
-Jenna Palin,Tom Confort,Silver
-Cassidy Bennett,Russell Katz,White
-Kara Ramos,Sticky DiMascio,Safety Yellow
-Alyssa Doner,Steve Panasuik,Purple
-Erica DeMichele,Richard Ferreira,Gold
-Claire Staines,Matthew Silverman,Columbia
+last_name,first_name,team
+Jensen,Emily,Navy
+Stefanik,Sam,Navy
+DiMascio,Jared,Forest
+Booth,Harriet,Forest
+Gill,Carrie,Hot Pink
+Lichtman,Ezra,Hot Pink
+Kirms,Michelle,Graphite
+Gast,Perry,Lime
+Rhodes,Jamie,Lime
+Robert,Jodi,Red
+Logler,Nick,Red
+Babbitt,Karen,Kelly
+Roberts,Donnelly,Kelly
+Rivard,Kayla,Maroon
+Braun,Garrett,Maroon
+Bucci,Justine,Vegas
+Gruber,Daniel,Vegas
+Moses,Phoebe Ann,Safety Orange
+Palin,Jenna,Silver
+Confort,Tom,Silver
+Bennett,Cassidy,White
+Katz,Russell,White
+Ramos,Kara,Safety Yellow
+DiMascio,Sticky,Safety Yellow
+Doner,Alyssa,Purple
+Panasuik,Steve,Purple
+DeMichele,Erica,Gold
+Ferreira,Richard,Gold
+Staines,Claire,Columbia
+Silverman,Matthew,Columbia
