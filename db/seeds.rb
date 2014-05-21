@@ -13,7 +13,7 @@ num_players = 0
 CSV.foreach(players_filename, :headers => :first_row) do |player|
   p = Player.create(:first_name => player['first'], :last_name => player['last'],
                     :age => player['age'], :gender => player['gender'],
-                    :ripul_id_number => player['id'])
+                    :ripul_id_number => player['PlayerID'])
   p.save
   num_players += 1
 end
