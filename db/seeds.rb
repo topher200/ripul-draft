@@ -33,8 +33,10 @@ CSV.foreach(teams_filename, :headers => :first_row) do |team|
     end
     first_name, last_name = team[captain].split(' ', 2)
     player_list = Player.where(:first_name => first_name, :last_name => last_name)
-    if player_list.length != 1
-      puts "error processing captain #{first_name} #{last_name}"
+    if player_list.length == 0
+      puts "ERROR: unable to find captain #{first_name} #{last_name}"
+    elsif player_list.length > 1
+      puts "ERROR: found duplicate of captain #{first_name} #{last_name}"
     end
     player = player_list.first
     player.team = new_team
