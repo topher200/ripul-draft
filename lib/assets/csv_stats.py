@@ -3,7 +3,7 @@ import re
 print "processing players"
 num_males = 0
 num_females = 0
-with open('ripul.csv', 'r') as file:
+with open('players.csv', 'r') as file:
     for line in file:
         if "last,first,gender" in line:
             print "skipping first line"
