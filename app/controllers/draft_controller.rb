@@ -9,10 +9,11 @@ class DraftController < ApplicationController
       flash[:notice] = "Drafted player #{Player.find(drafted_player_id).name} " \
                        "to #{@next_pick.team.color}"
       player = Player.find(drafted_player_id)
-      if player.team != nil
-        flash[:notice] = "Can't draft #{player.name}; already drafted"
-      else
+      if player.team == nil
+        # Player must not already be on a team
         self.draft_player(player)
+      else
+        flash[:notice] = "Can't draft #{player.name}; already drafted"
       end
       redirect_to draft_path
     end
