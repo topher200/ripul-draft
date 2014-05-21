@@ -45,14 +45,24 @@ end
 puts "processed #{num_teams} teams"
 
 picks_filename = "#{Rails.root}/lib/assets/picks.csv"
-num_picks = 0
+num_male_picks = 0
+num_female_picks = 0
 CSV.foreach(picks_filename, :headers => :first_row) do |pick|
-  new_pick = Pick.create(:gender => pick['gender'], :number => pick['number'])
+  pick_number = -1
+  if pick['gender'] == "M"
+    num_male_picks += 1
+    pick_number = num_male_picks
+  elsif pick['gender'] == "F"
+    num_female_picks += 1
+    pick_number = num_female_picks
+  else
+    puts "error processing gender of #{pick}"
+  end
+  new_pick = Pick.create(:gender => pick['gender'], :number => pick_number)
   new_pick.team = Team.find_by_color(pick['color'])
   new_pick.save
-  num_picks += 1
 end
-puts "processed #{num_picks} picks"
+puts "processed #{num_male_picks} male picks and #{num_female_picks} female picks"
 
 baggages_filename = "#{Rails.root}/lib/assets/baggages.csv"
 num_baggages = 0
