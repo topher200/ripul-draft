@@ -75,6 +75,7 @@ class PicksController < ApplicationController
   def destroy
     # We don't destroy, we just undo the pick
     @pick = Pick.find(params[:id])
+    logger.info "Deleting Pick #{@pick}"
     player = Player.find(@pick.player)
     player.team = nil
     player.save

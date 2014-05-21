@@ -19,7 +19,7 @@
       </td>
       <td><%= pick.team.color %></td>
       <% if @admin %>
-        <td><%= link_to 'Destroy', pick, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Undo pick', pick, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       <% end %>
     </tr>
     <% end %>
