@@ -1,0 +1,3 @@
+- be able to draft baggage early
+- have captain's names instead of just colors in more places
+- need to be able to add/change picks and players on the fly
