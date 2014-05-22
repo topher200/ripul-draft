@@ -10,7 +10,6 @@ pick_number,first_name,last_name,ripul_db_id_number,team
 000,Richard,Ferreira,1796,Gold
 000,Russell,Katz,2013,White
 000,Sam,Stefanik,1657,Navy
-000,Stephen,Kahler,1645,Safety Orange
 000,Steve,Panasuik,1761,Purple
 000,Sticky,DiMascio,1652,Safety Yellow
 000,Tom,Confort,1835,Silver
@@ -112,12 +111,12 @@ pick_number,first_name,last_name,ripul_db_id_number,team
 095,Trevor,Mason,1886,Red
 096,Finn,van Krieken,2000,Hot Pink
 097,Mike,Cardello,1770,Lime
-100,Adam,Cable,1995,Lime
+098,Stephen,Kahler,1645,Safety Orange
 099,Bill,Brown,1623,Safety Orange
+100,Adam,Cable,1995,Lime
 101,Teddy,Kurkoski,1680,Hot Pink
 102,Jacob,Gottier,1690,Red
 103,Mike,Hickey,1634,Graphite
-103,Jake,Pridotkas,2064,Graphite
 104,Brian,Dorsky,1637,Silver
 105,Nathan,Jepson,2029,Forest
 106,Matt,Remington,1711,Gold
@@ -129,7 +128,7 @@ pick_number,first_name,last_name,ripul_db_id_number,team
 112,Stephen,Kando,1979,White
 113,Darrin,Liau,1587,Purple
 114,Pat,McNally,1626,Maroon
-115,Tim,Treskatis,2068,Maroon
+115,Jake,Pridotkas,2064,Maroon
 116,Eric,Foreman,2054,Purple
 117,Chris,Akin,1959,White
 118,Chris,Bloom,1643,Kelly
@@ -192,3 +191,4 @@ pick_number,first_name,last_name,ripul_db_id_number,team
 176,Michael,Chon,1612,White
 177,Jacob,Thomas,1809,Purple
 178,Dave,Toohey,1779,Maroon
+179,Tim,Treskatis,2068,Navy
