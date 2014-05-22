@@ -1,5 +1,5 @@
 RipulDraft::Application.routes.draw do
-  root :to => "draft#index"
+  root :to => "players#index"
 
   resources :baggages
   resources :picks

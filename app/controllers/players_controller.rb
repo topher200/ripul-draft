@@ -41,6 +41,7 @@ class PlayersController < ApplicationController
   # POST /players.json
   def create
     @player = Player.new(params[:player])
+    @player.team = nil
 
     respond_to do |format|
       if @player.save
