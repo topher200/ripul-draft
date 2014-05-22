@@ -8,11 +8,15 @@ num_saved = 0
 CSV.open("draft_list.csv", 'w') do |csv|
   csv << ["pick_number", "first_name", "last_name", "ripul_db_id_number", "team"]
   Player.all.each do |player|
-    if not player.pick or not player.first_name or not player.last_name or not player.team or not player.team.color
+    if not player.first_name or not player.last_name or not player.team or not player.team.color
       puts "error processing #{player.name}"
       next
     end
-    csv << [player.pick.number, player.first_name, player.last_name, player.ripul_id_number, player.team.color]
+    pick_number = 0
+    if player.pick
+      pick_number = player.pick.number
+    end
+    csv << ['%03d' % pick_number, player.first_name, player.last_name, player.ripul_id_number, player.team.color]
     num_saved += 1
   end
 end
