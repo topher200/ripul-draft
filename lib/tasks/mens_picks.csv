@@ -1,0 +1,193 @@
+pick_number,first_name,last_name,ripul_db_id_number,team
+000,Daniel,Gruber,1774,Vegas
+000,Donnelly,Roberts,1632,Kelly
+000,Ezra,Lichtman,1726,Hot Pink
+000,Garrett,Braun,1810,Maroon
+000,Jamie,Rhodes,1599,Lime
+000,Jared,DiMascio,1598,Forest
+000,Matthew,Silverman,1708,Columbia
+000,Nick,Logler,1714,Red
+000,Richard,Ferreira,1796,Gold
+000,Russell,Katz,2013,White
+000,Sam,Stefanik,1657,Navy
+000,Stephen,Kahler,1645,Safety Orange
+000,Steve,Panasuik,1761,Purple
+000,Sticky,DiMascio,1652,Safety Yellow
+000,Tom,Confort,1835,Silver
+001,Andrew,Fredrickson,1977,Safety Orange
+002,William,Seites-Rundlett,1778,Lime
+003,Ryan,Turner,1604,Hot Pink
+004,Michael,Rice,1653,Red
+005,Jacob,Price,1754,Graphite
+006,Taylor,Strickland,1990,Silver
+007,Brendan,Blaney,1718,Forest
+008,Ricky,Higginbotham,2040,Gold
+009,Justin,Palin,1696,Vegas
+010,Chris,Drury,1999,Columbia
+011,Jared,Torres,1875,Navy
+012,Shaun,Doherty,1639,Safety Yellow
+013,Patrick,Blum,2035,Kelly
+014,Jonathan,Hills,1627,White
+015,Alex,Jenkins,1797,Purple
+016,Andrew,Lennon,1765,Maroon
+017,Ryan,Brown,1790,Safety Orange
+018,Riley,Tuttle,1830,Red
+019,Emet,Schwartz,1666,Graphite
+020,David,Roussel,1649,Lime
+021,Geoff,Whitehead,1945,Hot Pink
+022,Rob,Sayre-McCord,2036,Maroon
+023,Tyler,Pardee,2046,Purple
+024,Rob,Cornish,1788,White
+025,Russell,Brown,1833,Kelly
+026,Alex,Guarco,1957,Safety Yellow
+027,Kenneth,Volkmann,1950,Navy
+028,John-Paul,Saggal,1777,Columbia
+029,Jackson,Barron,1663,Vegas
+030,Robert,Chiodi,1808,Gold
+031,Eric,Tierney,2019,Forest
+032,Matt,Perry,1615,Silver
+033,Jake,Schwartz,1771,Graphite
+034,Jeffrey,Chai,1606,Safety Orange
+035,Forrest,Kolaski,1841,Safety Orange
+036,Nate,Taylor,1969,Lime
+037,Nate,Cressman,1854,Hot Pink
+038,Nick,Goelz,1948,Red
+039,Reuben,Graff,1681,Graphite
+040,Wesley,Highley,1673,Silver
+041,Chris,Higgins,1737,Forest
+042,Pat,Kunkel,1782,Gold
+043,Zachary,DiSalvo,1863,Vegas
+044,Matt,Knowlton,1740,Columbia
+045,Sean,Blake,1981,Navy
+046,Andrew,Ghali,1800,Safety Yellow
+047,Silas,Axtell,1775,Kelly
+048,Benjamin,Bauer,2065,White
+049,Stephen,Couitt,1878,Purple
+050,Tom,King,1873,Maroon
+051,Bennett,Goldberg,1964,Maroon
+052,kyle,goad,1824,Purple
+053,Jeffrey,Dao,1719,White
+054,Wesley,Clark,2085,Kelly
+055,Ryan,McDonough,1965,Safety Yellow
+056,Derek,Wiseman,1640,Navy
+057,Aaron,Joseph,1695,Columbia
+058,Eric,McAndrew,1659,Vegas
+059,David,Powers,1988,Gold
+060,Jon,Richards,1699,Forest
+061,Timothy,Helley,1597,Silver
+062,Aaron,Schwartz,1762,Graphite
+063,Zach,Raso,1686,Red
+064,Steven,Meng,2028,Hot Pink
+065,Robert,Hancock,2070,Lime
+066,JJ,Shea,1955,Safety Orange
+067,Daniel,Russell,2015,Safety Orange
+068,Devin,Kosowan,1866,Lime
+069,Michael,Brancato,1985,Hot Pink
+070,Nicholas,Gomes,1865,Red
+071,Jarrod,Lynn,1678,Graphite
+072,Matt,Wong,1947,Silver
+073,Stephen,Waite,1893,Forest
+074,Gabriel,Lyon,1662,Gold
+075,Stephen,Shaw,1671,Vegas
+076,Kyle,Sprague,2032,Columbia
+077,Mike,Kofron,1607,Navy
+078,Joe,Leighton,1834,Safety Yellow
+079,Topher,Brown,1590,Kelly
+080,Noah,Aubin,1861,White
+081,Alex,Carli-Dorsey,2056,Purple
+082,Pete,Skwirz,1828,Maroon
+083,Scott,Butson,1936,Maroon
+084,Rockwell,Richards,2051,Purple
+085,Steve,Adams,2087,White
+086,Mike,Bradley,1670,Kelly
+087,Daniel,Hawkins,1956,Safety Yellow
+088,Patrick,Shea,1744,Navy
+089,Timothy,Duhon,1984,Columbia
+090,eugene,L'Heureux,1871,Vegas
+091,Jacob,Van Horn,1946,Gold
+092,Garett,Simmons,1620,Forest
+093,Chip,Dietrich,1963,Silver
+094,Ethan,Carlson,1600,Graphite
+095,Trevor,Mason,1886,Red
+096,Finn,van Krieken,2000,Hot Pink
+097,Mike,Cardello,1770,Lime
+100,Adam,Cable,1995,Lime
+099,Bill,Brown,1623,Safety Orange
+101,Teddy,Kurkoski,1680,Hot Pink
+102,Jacob,Gottier,1690,Red
+103,Mike,Hickey,1634,Graphite
+103,Jake,Pridotkas,2064,Graphite
+104,Brian,Dorsky,1637,Silver
+105,Nathan,Jepson,2029,Forest
+106,Matt,Remington,1711,Gold
+107,patrick,barron,2067,Vegas
+108,Ben,Weinstein,1885,Columbia
+109,Ryan,Kelly,1610,Navy
+110,Ryan,Wilson,1829,Safety Yellow
+111,michael ,regan,1989,Kelly
+112,Stephen,Kando,1979,White
+113,Darrin,Liau,1587,Purple
+114,Pat,McNally,1626,Maroon
+115,Tim,Treskatis,2068,Maroon
+116,Eric,Foreman,2054,Purple
+117,Chris,Akin,1959,White
+118,Chris,Bloom,1643,Kelly
+119,Joshua,Wizer-Vecchi,2002,Safety Yellow
+120,Matthew,Dodge,1819,Navy
+121,Kiefer,Calisto,2073,Columbia
+122,Kenji,Greenberg,1654,Vegas
+123,Kyle,Irving,1787,Gold
+124,bryan,baldaro,1803,Forest
+125,Kyle ,Savastano,1967,Silver
+127,Daniel,Roach,1807,Red
+128,Andrew,Carr-Harris,2069,Hot Pink
+129,Xavier,Mink,1804,Lime
+130,Scott,Martin,1594,Safety Orange
+131,Nathan,Brown,1677,Safety Orange
+132,Benjamin,Greenspan,1725,Lime
+133,Kyle,Webb,1911,Hot Pink
+134,Andrew,McVay,1801,Red
+135,Thomas,Dickerson,2023,Graphite
+136,Jordan,Bonnell,1793,Silver
+137,Jordan,Weinberg,1732,Forest
+138,Drew,Buzzanca,2095,Gold
+139,John,Rissmiller,2086,Vegas
+140,Justin,Kunkel,1971,Columbia
+141,Joshua ,Bolt,2044,Navy
+142,Sam,Meyen,1694,Safety Yellow
+143,Sean,Broestl,1608,Kelly
+144,Andrew,Feldman,1943,White
+145,Matthew,Harrison,1749,Purple
+146,Raymond,Richardson,1721,Maroon
+147,Michael,Spremulli,1646,Maroon
+148,Vincent,Golemme,2021,Purple
+149,Dave,Egan,2006,White
+150,Gabriel,Santner,1753,Kelly
+151,Dennis,Poirier,2057,Safety Yellow
+152,Tom,Dougherty,1970,Navy
+153,Nick,Morrisette,1836,Columbia
+154,Thomas,Capparella,1809,Vegas
+155,Chris ,Brady,2026,Gold
+156,Bob,Vetromile,1614,Forest
+157,Matthew,Palin,2020,Silver
+158,Patrick,Greene,2017,Graphite
+159,Dan,Cavanagh,1592,Red
+160,Scott,Connolly,1712,Hot Pink
+161,Kurt,Teichert,1780,Lime
+162,Matt,Stein,1704,Safety Orange
+163,Nat,Barnett,1693,Safety Orange
+164,David,Kingsley,1827,Lime
+165,Nick,Senich,1922,Hot Pink
+166,Adan,Rivelli,1938,Red
+167,Philip,Casken,1924,Graphite
+168,Aron,Griffis,1625,Silver
+169,michael,bisbano,2024,Forest
+170,Alexander,Donadio,1987,Gold
+171,Joseph,Leonard,2083,Vegas
+172,Dennis,Langford,0,Columbia
+173,Chapin,Cheney,1839,Navy
+174,Matty,Brier,1588,Safety Yellow
+175,Michael,Casey,2074,Kelly
+176,Michael,Chon,1612,White
+177,Jacob,Thomas,1809,Purple
+178,Dave,Toohey,1779,Maroon
