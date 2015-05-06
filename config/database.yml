@@ -7,7 +7,7 @@ common: &common
 
 production:
   <<: *common
-  database: ripul
+  database: ripul_pro
 
 development:
   <<: *common
