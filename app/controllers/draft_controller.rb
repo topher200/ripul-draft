@@ -18,7 +18,6 @@ class DraftController < ApplicationController
       redirect_to draft_path
     end
 
-    @next_pick = Pick.next_pick
     if @next_pick != nil
       @information_string = "Drafting #{@next_pick.gender_to_string} " \
                             "##{@next_pick.number} " \
