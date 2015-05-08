@@ -3,13 +3,6 @@
 one:
   team: 
   player: 
-  gender: MyString
-  automatic: false
-  number: 1
-
-two:
-  team: 
-  player: 
-  gender: MyString
+  gender: M
   automatic: false
   number: 1
