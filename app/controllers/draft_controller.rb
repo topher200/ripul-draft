@@ -1,6 +1,8 @@
 class DraftController < ApplicationController
   def index
-    @next_pick = Pick.next_pick
+    # We take "M" and "F" as possible genders
+    @gender = params[:gender]
+    @next_pick = Pick.next_undrafted(@gender)
 
     # Did we draft someone? If yes, display that draft pick
     drafted_player_id = params[:player]

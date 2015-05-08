@@ -10,8 +10,10 @@ class Pick < ActiveRecord::Base
     return self.find_all_by_gender "F"
   end
 
-  def self.next_pick
-    return Pick.where("player_id IS NULL").order("gender DESC").order("number").limit(1).first
+  def self.next_undrafted(gender_char)
+    return Pick.where(
+                      "player_id IS NULL and gender = ?",
+                      gender_char).order("number").limit(1).first
   end
 
   def gender_to_string
