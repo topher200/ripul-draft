@@ -2,14 +2,14 @@
 
 one:
   team: one
-  player: one
+  player:
   gender: M
   automatic: false
   number: 1
 
 two:
   team: one
-  player: two
+  player:
   gender: F
   automatic: false
-  number: 2
+  number: 1

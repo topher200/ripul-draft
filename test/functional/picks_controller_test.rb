@@ -3,6 +3,7 @@ require 'test_helper'
 class PicksControllerTest < ActionController::TestCase
   setup do
     @pick = picks(:one)
+    @player = players(:one)
   end
 
   test "should get index" do
@@ -35,7 +36,9 @@ class PicksControllerTest < ActionController::TestCase
   end
 
   test "should update pick" do
-    put :update, id: @pick, pick: { automatic: @pick.automatic, gender: @pick.gender, number: @pick.number }
+    # We assign a player to the pick before we try to undo the pick
+    @player.pick = @pick
+    put :update, id: @pick
     assert_redirected_to picks_path
   end
 
