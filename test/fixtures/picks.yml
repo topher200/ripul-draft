@@ -1,8 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  team: 
-  player: 
+  team: one
+  player: one
   gender: M
   automatic: false
   number: 1
