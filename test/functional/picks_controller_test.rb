@@ -8,7 +8,7 @@ class PicksControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:picks)
+    assert_not_nil assigns(:picks_by_gender)
   end
 
   test "should get new" do
