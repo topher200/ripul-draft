@@ -4,12 +4,12 @@ one:
   first_name: MyString
   last_name: MyString
   age: 1
-  team: 
-  gender: MyString
+  team: one
+  gender: M
 
 two:
   first_name: MyString
   last_name: MyString
   age: 1
-  team: 
-  gender: MyString
+  team: one
+  gender: F

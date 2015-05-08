@@ -6,3 +6,10 @@ one:
   gender: M
   automatic: false
   number: 1
+
+two:
+  team: one
+  player: two
+  gender: F
+  automatic: false
+  number: 2
