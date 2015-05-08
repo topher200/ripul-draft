@@ -2,6 +2,7 @@ class DraftController < ApplicationController
   def index
     @next_pick = Pick.next_pick
 
+    # Did we draft someone? If yes, display that draft pick
     drafted_player_id = params[:player]
     if drafted_player_id
       logger.info "drafting player #{Player.find(drafted_player_id).name} " \
@@ -18,6 +19,7 @@ class DraftController < ApplicationController
       redirect_to draft_path
     end
 
+    # Which team is draft next?
     if @next_pick != nil
       @information_string = "Drafting #{@next_pick.gender_to_string} " \
                             "##{@next_pick.number} " \
@@ -27,6 +29,8 @@ class DraftController < ApplicationController
       @information_string = "Done drafting!"
       @players = []
     end
+
+    # Are we in admin mode?
     @admin = cookies[:admin]
   end
 
