@@ -36,7 +36,7 @@ class PicksControllerTest < ActionController::TestCase
 
   test "should update pick" do
     put :update, id: @pick, pick: { automatic: @pick.automatic, gender: @pick.gender, number: @pick.number }
-    assert_redirected_to pick_path(assigns(:pick))
+    assert_redirected_to picks_path
   end
 
   test "should destroy pick" do
