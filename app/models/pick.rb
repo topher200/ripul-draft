@@ -13,7 +13,7 @@ class Pick < ActiveRecord::Base
   def self.next_undrafted(gender_char)
     return Pick.where(
                       "player_id IS NULL and gender = ?",
-                      gender_char).order("number").limit(1).first
+                      gender_char).order("number").first
   end
 
   def gender_to_string
