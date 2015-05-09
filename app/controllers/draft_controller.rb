@@ -42,6 +42,8 @@ class DraftController < ApplicationController
   end
 
   def draft_player(player)
+    @next_pick.player = player
+    @next_pick.save
     player.team = @next_pick.team
     player.save
   end
