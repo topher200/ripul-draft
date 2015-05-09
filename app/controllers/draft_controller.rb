@@ -2,6 +2,11 @@ class DraftController < ApplicationController
   def index
     # We take "M" and "F" as possible genders
     @gender = params[:gender]
+    if not @gender
+      logger.error "No gender set!"
+      @gender = "F"
+    end
+
     @next_pick = Pick.next_undrafted(@gender)
 
     # Did we draft someone? If yes, display that draft pick
