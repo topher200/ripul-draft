@@ -14,7 +14,7 @@
   <tr>
     <td><%= player.name %></td>
     <% if @admin %>
-      <td><%= link_to 'Draft player', draft_path(:player => player) %></td>
+      <td><%= link_to 'Draft player', draft_path(:player => player, :gender => @gender) %></td>
     <% end %>
   </tr>
   <% end %>
