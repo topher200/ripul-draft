@@ -23,7 +23,7 @@ class DraftController < ApplicationController
       else
         flash[:notice] = "Can't draft #{player.name}; already drafted"
       end
-      redirect_to draft_path
+      redirect_to draft_path(:gender => @gender)
     end
 
     # Which team is draft next?
