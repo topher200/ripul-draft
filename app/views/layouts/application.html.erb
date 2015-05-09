@@ -9,7 +9,8 @@
     <div class="navbar-inner">
       <a class="brand" href="#">RIPUL Draft</a>
       <ul class="nav">
-        <li><%= link_to "Undrafted Players", draft_path %></li>
+        <li><%= link_to "Female Draft", draft_path(:gender => "F") %></li>
+        <li><%= link_to "Male Draft", draft_path(:gender => "M") %></li>
         <li><%= link_to "Teams", teams_path %></li>
         <li><%= link_to "Draft Picks", picks_path %></li>
       </ul>
