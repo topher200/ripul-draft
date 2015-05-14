@@ -4,14 +4,14 @@
 
 <div class="span6">
 <% if @admin %>
-  <div class="field">
+  <form action=draft_path>
     <table class="table table-striped table-bordered">
       <tr>
         <td>
           Next draft pick number
         </td>
         <td>
-          <%= number_field_tag "next_draft_pick", "asdf" %>
+          <%= number_field_tag "chosen_pick_id", "asdf" %>
         </td>
         <td>
           <div class="actions">
@@ -20,7 +20,7 @@
         </td>
       </tr>
     </table>
-  </div>
+  </form>
 <% end %>
 <table class="table table-striped">
   <tr>

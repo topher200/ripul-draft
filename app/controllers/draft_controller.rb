@@ -7,7 +7,15 @@ class DraftController < ApplicationController
       @gender = "F"
     end
 
-    @next_pick = Pick.next_undrafted(@gender)
+    # Did the user select an out-of-order pick for the next one?
+    chosen_pick_id = cookies[:next_pick]
+    if chosen_pick_id.blank?
+      logger.info("Next pick is next unpicked person")
+      @next_pick = Pick.next_undrafted(@gender)
+    else
+      logger.info("Using cookie'd Pick number")
+      @next_pick = Pick.find(cookies[:next_pick])
+    end
 
     # Did we draft someone? If yes, display that draft pick
     drafted_player_id = params[:player]
