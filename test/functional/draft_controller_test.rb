@@ -25,4 +25,12 @@ class DraftControllerTest < ActionController::TestCase
 
     assert_not_nil Pick.find(our_pick).player, "Pick didn't get a Player"
   end
+
+  test "should make designated pick" do
+    # We start with an undrafted player and end up with a drafted one
+    assert_nil Player.find(@player).team, "Player already has a team"
+    cookies[:pick=2]
+    post :index, gender: @gender, player: @player, 
+    assert_not_nil Player.find(@player).team, "Player didn't get a team"
+  end
 end
