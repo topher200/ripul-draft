@@ -17,7 +17,7 @@ class Player(object):
 
 
 ripul_players = []
-with open("ripul.csv", 'r') as ripul_file:
+with open("ripul-2014.csv", 'r') as ripul_file:
     for row_num, row in enumerate(ripul_file):
         if row_num == 0:
             # skip header
