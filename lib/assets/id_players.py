@@ -1,5 +1,8 @@
+import os
 import re
 
+
+ASSETS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 class Player(object):
     def __init__(self, first_name, last_name, gender, ripul_id):
@@ -17,7 +20,7 @@ class Player(object):
 
 
 ripul_players = []
-with open("ripul-2014.csv", 'r') as ripul_file:
+with open(os.path.join(ASSETS_DIR, "ripul-2014.csv"), 'r') as ripul_file:
     for row_num, row in enumerate(ripul_file):
         if row_num == 0:
             # skip header
@@ -28,7 +31,7 @@ with open("ripul-2014.csv", 'r') as ripul_file:
         ripul_players.append(Player(first_name, last_name, gender, ripul_id))
 
 players = []
-with open("players.csv", 'r') as players_file:
+with open(os.path.join(ASSETS_DIR, "players.csv"), 'r') as players_file:
     for row_num, row in enumerate(players_file):
         if row_num == 0:
             # skip header
@@ -46,7 +49,7 @@ with open("players.csv", 'r') as players_file:
             print "ERROR! No match found for {}".format(player)
             players.append(player)
 
-with open("players_with_id.csv", 'w') as output_file:
+with open(os.path.join(ASSETS_DIR, "players_with_id.csv"), 'w') as output_file:
     output_file.write("last,first,gender,PlayerID\n")
     for player in players:
         output_file.write(str(player) + '\n')
