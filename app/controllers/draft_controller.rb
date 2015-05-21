@@ -9,11 +9,19 @@ class DraftController < ApplicationController
 
     user_set_pick_number = NextPickNumber.find_by_gender(@gender)
     if user_set_pick_number != nil
-      @next_pick = Pick.get_pick(@gender, user_set_pick_number.number)
-    else
+      logger.info "using user set next pick. number #{user_set_pick_number.number}"
+      next_pick = Pick.get_pick(@gender, user_set_pick_number.number)
+      if next_pick == nil
+        logger.error "couldn't find user's pick number"
+      end
+    end
+
+    if @next_pick == nil
+      logger.info "using default next pick"
       @next_pick = Pick.next_undrafted(@gender)
     end
-    logger.error "next pick: #{@next_pick.number}"
+
+    logger.info "next pick: #{@next_pick.number}"
 
     # Did we draft someone? If yes, display that draft pick
     drafted_player_id = params[:player]
