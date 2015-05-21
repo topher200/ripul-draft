@@ -14,6 +14,6 @@ class Player < ActiveRecord::Base
   end
     
   def self.undrafted(gender)
-    return Player.where("team_id IS NULL AND gender = ?", gender)
+    return Player.where("team_id IS NULL AND gender = ?", gender).order(:first_name)
   end
 end
