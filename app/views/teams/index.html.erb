@@ -3,7 +3,7 @@
 <% @teams.each do |team| %>
 <h3><%= team.color %></h3>
 <table class="table table-striped">
-  <% team.players.each do |player| %>
+  <% team.players.order(:gender).each do |player| %>
   <tr>
     <td><%= player.name %></td>
   </tr>
