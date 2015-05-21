@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  gender: MyString
-  number: 1
+  gender: M
+  number: 15
 
 two:
-  gender: MyString
-  number: 1
+  gender: F
+  number: 16
