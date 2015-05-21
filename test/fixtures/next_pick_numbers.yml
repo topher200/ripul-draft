@@ -2,8 +2,12 @@
 
 one:
   gender: M
-  number: 15
+  number: 1
 
-two:
-  gender: F
+good:
+  gender: M
+  number: 2
+
+too_high_number:
+  gender: M
   number: 16
