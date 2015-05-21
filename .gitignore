@@ -16,3 +16,6 @@
 
 # Ignore pre-compiled stuff
 /public/assets/*
+
+# Ignore the file we create
+/lib/assets/players_with_id.csv
