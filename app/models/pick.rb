@@ -17,6 +17,10 @@ class Pick < ActiveRecord::Base
       .order("number").first
   end
 
+  def self.get_pick(gender, number)
+    return Pick.where("gender = ? and number = ?", gender, number).first
+  end
+
   def gender_to_string
     if gender == "F"
       return "Female"

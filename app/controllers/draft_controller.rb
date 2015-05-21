@@ -7,7 +7,13 @@ class DraftController < ApplicationController
       @gender = "F"
     end
 
-    @next_pick = Pick.next_undrafted(@gender)
+    user_set_pick_number = NextPickNumber.find_by_gender(@gender)
+    if user_set_pick_number != nil
+      @next_pick = Pick.get_pick(@gender, user_set_pick_number.number)
+    else
+      @next_pick = Pick.next_undrafted(@gender)
+    end
+    logger.error "next pick: #{@next_pick.number}"
 
     # Did we draft someone? If yes, display that draft pick
     drafted_player_id = params[:player]
