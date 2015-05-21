@@ -2,7 +2,7 @@ class PicksController < ApplicationController
   # GET /picks
   # GET /picks.json
   def index
-    @picks_by_gender = { :Male => Pick.males, :Female => Pick.females }
+    @picks_by_gender = { :Female => Pick.females, :Male => Pick.males }
     @admin = cookies[:admin]
 
     respond_to do |format|
