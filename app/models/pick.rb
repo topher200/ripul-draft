@@ -4,10 +4,10 @@ class Pick < ActiveRecord::Base
   attr_accessible :automatic, :gender, :number, :team_id
 
   def self.males
-    return self.find_all_by_gender "M"
+    return Pick.where("gender = ?", "M").order(:number)
   end
   def self.females
-    return self.find_all_by_gender "F"
+    return Pick.where("gender = ?", "F").order(:number)
   end
 
   def self.next_undrafted(gender_char)
