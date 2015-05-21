@@ -1,247 +1,279 @@
 gender,ignored_number,color
-M,1,Safety Orange
-M,2,Lime
-M,3,Hot Pink
-M,4,Red
-M,5,Graphite
-M,6,Silver
-M,7,Forest
-M,8,Gold
-M,9,Vegas
+M,1,Red
+M,2,Gold
+M,3,Safety Yellow
+M,4,Navy
+M,5,Lime
+M,6,White
+M,7,Vegas
+M,8,Graphite
+M,9,Silver
 M,10,Columbia
-M,11,Navy
-M,12,Safety Yellow
+M,11,Forest
+M,12,Safety Orange
 M,13,Kelly
-M,14,White
+M,14,Hot Pink
 M,15,Purple
 M,16,Maroon
-M,17,Safety Orange
-M,18,Red
-M,19,Graphite
-M,20,Lime
-M,21,Hot Pink
-M,22,Maroon
-M,23,Purple
-M,24,White
-M,25,Kelly
-M,26,Safety Yellow
-M,27,Navy
-M,28,Columbia
-M,29,Vegas
-M,30,Gold
-M,31,Forest
-M,32,Silver
-M,33,Graphite
-M,34,Safety Orange
-M,1,Safety Orange
-M,2,Lime
-M,3,Hot Pink
-M,4,Red
-M,5,Graphite
-M,6,Silver
-M,7,Forest
-M,8,Gold
-M,9,Vegas
-M,10,Columbia
-M,11,Navy
-M,12,Safety Yellow
-M,13,Kelly
-M,14,White
-M,15,Purple
-M,16,Maroon
-M,16,Maroon
-M,15,Purple
-M,14,White
-M,13,Kelly
-M,12,Safety Yellow
-M,11,Navy
-M,10,Columbia
-M,9,Vegas
-M,8,Gold
-M,7,Forest
-M,6,Silver
-M,5,Graphite
-M,4,Red
-M,3,Hot Pink
-M,2,Lime
-M,1,Safety Orange
-M,1,Safety Orange
-M,2,Lime
-M,3,Hot Pink
-M,4,Red
-M,5,Graphite
-M,6,Silver
-M,7,Forest
-M,8,Gold
-M,9,Vegas
-M,10,Columbia
-M,11,Navy
-M,12,Safety Yellow
-M,13,Kelly
-M,14,White
-M,15,Purple
-M,16,Maroon
-M,16,Maroon
-M,15,Purple
-M,14,White
-M,13,Kelly
-M,12,Safety Yellow
-M,11,Navy
-M,10,Columbia
-M,9,Vegas
-M,8,Gold
-M,7,Forest
-M,6,Silver
-M,5,Graphite
-M,4,Red
-M,3,Hot Pink
-M,2,Lime
-M,1,Safety Orange
-M,1,Safety Orange
-M,2,Lime
-M,3,Hot Pink
-M,4,Red
-M,5,Graphite
-M,6,Silver
-M,7,Forest
-M,8,Gold
-M,9,Vegas
-M,10,Columbia
-M,11,Navy
-M,12,Safety Yellow
-M,13,Kelly
-M,14,White
-M,15,Purple
-M,16,Maroon
-M,16,Maroon
-M,15,Purple
-M,14,White
-M,13,Kelly
-M,12,Safety Yellow
-M,11,Navy
-M,10,Columbia
-M,9,Vegas
-M,8,Gold
-M,7,Forest
-M,6,Silver
-M,5,Graphite
-M,4,Red
-M,3,Hot Pink
-M,2,Lime
-M,1,Safety Orange
-M,1,Safety Orange
-M,2,Lime
-M,3,Hot Pink
-M,4,Red
-M,5,Graphite
-M,6,Silver
-M,7,Forest
-M,8,Gold
-M,9,Vegas
-M,10,Columbia
-M,11,Navy
-M,12,Safety Yellow
-M,13,Kelly
-M,14,White
-M,15,Purple
-M,16,Maroon
-M,16,Maroon
-M,15,Purple
-M,14,White
-M,13,Kelly
-M,12,Safety Yellow
-M,11,Navy
-M,10,Columbia
-M,9,Vegas
-M,8,Gold
-M,7,Forest
-M,6,Silver
-M,5,Graphite
-M,4,Red
-M,3,Hot Pink
-M,2,Lime
-M,1,Safety Orange
-M,1,Safety Orange
-M,2,Lime
-M,3,Hot Pink
-M,4,Red
-M,5,Graphite
-M,6,Silver
-M,7,Forest
-M,8,Gold
-M,9,Vegas
-M,10,Columbia
-M,11,Navy
-M,12,Safety Yellow
-M,13,Kelly
-M,14,White
-M,15,Purple
-M,16,Maroon
-F,1,Purple
-F,2,White
-F,3,Kelly
-F,4,Safety Yellow
-F,5,Gold
-F,6,Lime
-F,7,Maroon
-F,8,Graphite
-F,9,Navy
-F,10,Columbia
-F,11,Silver
-F,12,Hot Pink
-F,13,Vegas
-F,14,Forest
-F,15,Red
-F,16,Safety Orange
-F,4,Safety Yellow
-F,3,Kelly
-F,2,White
-F,1,Purple
-F,8,Graphite
-F,7,Maroon
-F,6,Lime
-F,5,Gold
-F,12,Hot Pink
-F,11,Silver
-F,10,Columbia
-F,9,Navy
-F,16,Safety Orange
-F,15,Red
-F,14,Forest
-F,13,Vegas
-F,13,Vegas
-F,14,Forest
-F,15,Red
-F,16,Safety Orange
-F,9,Navy
-F,10,Columbia
-F,11,Silver
-F,12,Hot Pink
-F,5,Gold
-F,6,Lime
-F,7,Maroon
-F,8,Graphite
-F,1,Purple
-F,2,White
-F,3,Kelly
-F,4,Safety Yellow
-F,4,Safety Yellow
-F,3,Kelly
-F,2,White
-F,1,Purple
-F,8,Graphite
-F,7,Maroon
-F,6,Lime
-F,5,Gold
-F,12,Hot Pink
-F,11,Silver
-F,10,Columbia
-F,9,Navy
-F,16,Safety Orange
-F,15,Red
-F,14,Forest
-F,13,Vegas
-F,13,Vegas
-F,14,Forest
-F,15,Red
-F,16,Safety Orange
+M,17,Gold
+M,18,Maroon
+M,19,Purple
+M,20,Hot Pink
+M,21,Kelly
+M,22,Safety Orange
+M,23,Forest
+M,24,Columbia
+M,25,Silver
+M,26,Graphite
+M,27,Vegas
+M,28,White
+M,29,Lime
+M,30,Navy
+M,31,Safety Yellow
+M,32,Red
+M,33,Red
+M,34,Gold
+M,35,Safety Yellow
+M,36,Navy
+M,37,Lime
+M,38,White
+M,39,Vegas
+M,40,Graphite
+M,41,Silver
+M,42,Columbia
+M,43,Forest
+M,44,Safety Orange
+M,45,Kelly
+M,46,Hot Pink
+M,47,Purple
+M,48,Maroon
+M,49,Maroon
+M,50,Purple
+M,51,Hot Pink
+M,52,Kelly
+M,53,Safety Orange
+M,54,Forest
+M,55,Columbia
+M,56,Silver
+M,57,Graphite
+M,58,Vegas
+M,59,White
+M,60,Lime
+M,61,Navy
+M,62,Safety Yellow
+M,63,Gold
+M,64,Red
+M,65,Red
+M,66,Gold
+M,67,Safety Yellow
+M,68,Navy
+M,69,Lime
+M,70,White
+M,71,Vegas
+M,72,Graphite
+M,73,Silver
+M,74,Columbia
+M,75,Forest
+M,76,Safety Orange
+M,77,Kelly
+M,78,Hot Pink
+M,79,Purple
+M,80,Maroon
+M,81,Maroon
+M,82,Purple
+M,83,Hot Pink
+M,84,Kelly
+M,85,Safety Orange
+M,86,Forest
+M,87,Columbia
+M,88,Silver
+M,89,Graphite
+M,90,Vegas
+M,91,White
+M,92,Lime
+M,93,Navy
+M,94,Safety Yellow
+M,95,Gold
+M,96,Red
+M,97,Red
+M,98,Gold
+M,99,Safety Yellow
+M,100,Navy
+M,101,Lime
+M,102,White
+M,103,Vegas
+M,104,Graphite
+M,105,Silver
+M,106,Columbia
+M,107,Forest
+M,108,Safety Orange
+M,109,Kelly
+M,110,Hot Pink
+M,111,Purple
+M,112,Maroon
+M,113,Maroon
+M,114,Purple
+M,115,Hot Pink
+M,116,Kelly
+M,117,Safety Orange
+M,118,Forest
+M,119,Columbia
+M,120,Silver
+M,121,Graphite
+M,122,Vegas
+M,123,White
+M,124,Lime
+M,125,Navy
+M,126,Safety Yellow
+M,127,Gold
+M,128,Red
+M,129,Red
+M,130,Gold
+M,131,Safety Yellow
+M,132,Navy
+M,133,Lime
+M,134,White
+M,135,Vegas
+M,136,Graphite
+M,137,Silver
+M,138,Columbia
+M,139,Forest
+M,140,Safety Orange
+M,141,Kelly
+M,142,Hot Pink
+M,143,Purple
+M,144,Maroon
+M,145,Maroon
+M,146,Purple
+M,147,Hot Pink
+M,148,Kelly
+M,149,Safety Orange
+M,150,Forest
+M,151,Columbia
+M,152,Silver
+M,153,Graphite
+M,154,Vegas
+M,155,White
+M,156,Lime
+M,157,Navy
+M,158,Safety Yellow
+M,159,Gold
+M,160,Red
+M,161,Red
+M,162,Gold
+M,163,Safety Yellow
+M,164,Navy
+M,165,Lime
+M,166,White
+M,167,Vegas
+M,168,Graphite
+M,169,Silver
+M,170,Columbia
+M,171,Forest
+M,172,Safety Orange
+M,173,Kelly
+M,174,Hot Pink
+M,175,Purple
+M,176,Maroon
+M,177,Maroon
+M,178,Purple
+M,179,Hot Pink
+M,180,Kelly
+M,181,Safety Orange
+M,182,Forest
+M,183,Columbia
+M,184,Silver
+M,185,Graphite
+M,186,Vegas
+M,187,White
+M,188,Lime
+M,189,Navy
+M,190,Safety Yellow
+M,191,Gold
+M,192,Red
+F,1,Safety Orange
+F,2,Graphite
+F,3,Vegas
+F,4,Forest
+F,5,Purple
+F,6,Red
+F,7,Hot Pink
+F,8,Columbia
+F,9,White
+F,10,Kelly
+F,11,Navy
+F,12,Maroon
+F,13,Lime
+F,14,Silver
+F,15,Safety Yellow
+F,16,Gold
+F,17,Gold
+F,18,Safety Yellow
+F,19,Silver
+F,20,Lime
+F,21,Maroon
+F,22,Navy
+F,23,Kelly
+F,24,White
+F,25,Columbia
+F,26,Hot Pink
+F,27,Red
+F,28,Purple
+F,29,Forest
+F,30,Vegas
+F,31,Graphite
+F,32,Safety Orange
+F,33,Safety Orange
+F,34,Graphite
+F,35,Vegas
+F,36,Forest
+F,37,Purple
+F,38,Red
+F,39,Hot Pink
+F,40,Columbia
+F,41,White
+F,42,Kelly
+F,43,Navy
+F,44,Maroon
+F,45,Lime
+F,46,Silver
+F,47,Safety Yellow
+F,48,Gold
+F,49,Gold
+F,50,Safety Yellow
+F,51,Silver
+F,52,Lime
+F,53,Maroon
+F,54,Navy
+F,55,Kelly
+F,56,White
+F,57,Columbia
+F,58,Hot Pink
+F,59,Red
+F,60,Purple
+F,61,Forest
+F,62,Vegas
+F,63,Graphite
+F,64,Safety Orange
+F,65,Safety Orange
+F,66,Graphite
+F,67,Vegas
+F,68,Forest
+F,69,Purple
+F,70,Red
+F,71,Hot Pink
+F,72,Columbia
+F,73,White
+F,74,Kelly
+F,75,Navy
+F,76,Maroon
+F,77,Lime
+F,78,Silver
+F,79,Safety Yellow
+F,80,Gold
+F,81,Gold
+F,82,Safety Yellow
+F,83,Silver
+F,84,Lime
+F,85,Maroon
+F,86,Navy
