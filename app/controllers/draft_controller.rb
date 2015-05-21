@@ -13,6 +13,10 @@ class DraftController < ApplicationController
       next_pick = Pick.get_pick(@gender, user_set_pick_number.number)
       if next_pick == nil
         logger.error "couldn't find user's pick number"
+      elsif next_pick.player != nil
+        logger.error "that pick has already been made"
+      else
+        @next_pick = next_pick
       end
     end
 
