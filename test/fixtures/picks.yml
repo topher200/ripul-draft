@@ -7,6 +7,13 @@ one:
   automatic: false
   number: 1
 
+male:
+  team: one
+  player:
+  gender: M
+  automatic: false
+  number: 2
+
 two:
   team: one
   player:

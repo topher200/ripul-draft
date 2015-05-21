@@ -7,6 +7,13 @@ one:
   team:
   gender: M
 
+male:
+  first_name: Male
+  last_name: Man
+  age: 1
+  team:
+  gender: M
+
 two:
   first_name: MyString
   last_name: MyString
