@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Gender:</b>
+  <%= @next_pick_number.gender %>
+</p>
+
+<p>
+  <b>Number:</b>
+  <%= @next_pick_number.number %>
+</p>
+
+
+<%= link_to 'Edit', edit_next_pick_number_path(@next_pick_number) %> |
+<%= link_to 'Back', next_pick_numbers_path %>

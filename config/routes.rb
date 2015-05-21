@@ -1,4 +1,7 @@
 RipulDraft::Application.routes.draw do
+  resources :next_pick_numbers
+
+
   root :to => "draft#index"
 
   resources :baggages
