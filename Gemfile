@@ -13,10 +13,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '3.1.0'
 
-gem 'pry-rails', :group => :development
+gem 'pry-rails', '0.3.2', :group => :development
 
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', '2.2.8'
 
-gem 'thin'
+gem 'thin', '1.6.2'

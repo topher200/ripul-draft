@@ -131,11 +131,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  jquery-rails
+  jquery-rails (= 3.1.0)
   pg
-  pry-rails
+  pry-rails (= 0.3.2)
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
-  thin
-  twitter-bootstrap-rails
+  thin (= 1.6.2)
+  twitter-bootstrap-rails (= 2.2.8)
   uglifier (>= 1.0.3)
