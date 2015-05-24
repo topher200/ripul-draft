@@ -107,7 +107,7 @@ pick_number,first_name,last_name,ripul_db_id_number,team
 037,Nakita,Guerrouxo,3881,Purple
 038,Courtney,Botelho,3981,Red
 038,Forrest,Kolaski,3734,White
-039,Josh,Cannon,3963,Vegas
+039,Josh,Cannon,0,Vegas
 039,Katie,Borema,3964,Hot Pink
 040,Kristi,Woo,3922,Columbia
 040,Sam,Vetromile,3783,Graphite
@@ -141,7 +141,7 @@ pick_number,first_name,last_name,ripul_db_id_number,team
 054,Larry,Martins,3919,Forest
 055,Jillian,Fournier,3840,Kelly
 055,Sam,Meyen,3801,Columbia
-056,Bill,Brown,0,Silver
+056,Bill,Brown,3814,Silver
 057,Adam,Cable,3902,Graphite
 058,Aaron,Schwartz,3882,Vegas
 059,Christen,Scanlon,3884,Red
