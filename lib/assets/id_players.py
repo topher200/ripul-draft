@@ -25,7 +25,7 @@ with open(os.path.join(ASSETS_DIR, "ripul-2015.csv"), 'r') as ripul_file:
         if row_num == 0:
             # skip header
             continue
-        
+
         first_name, last_name, gender, ripul_id = re.search(
             '^".*?","(.*?)","(.*?)",.*,"(M|F)",.*,"(\d*?)",$', row).groups()
         ripul_players.append(Player(first_name, last_name, gender, ripul_id))
