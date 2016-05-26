@@ -14,7 +14,7 @@ Scott Butson,	Mel Hersey, 1
 Frankie Noonan,	Jessy Magagnos, 1
 Ryan Brown,	Nathan Brown, 4
 Ryan Brown,  Bill Brown, 6
-Ryan Brown,  Colin Brown	, 0
+Ryan Brown,  Colin Brown, 0
 Andrew Schwartz,	Melissa Revotskie, 1
 Julie Costello,	Emelie Rabideau	Last pick
 Kevin Nagle,	Mo Nagle, 3
@@ -27,44 +27,48 @@ Gus/Delaney,	Garett Simmons, 3
 
 Draft order
 MEN'S
-1) MattPerry/Mel 
-2) Higgins/Audra
-3) Eric Lemoi/Meaghan Rose 
-4) Tom Dougherty/Katie B
-5) Jamie Rhodes/Ariel Shaw
-6) Jared Torres/Kayla Rivard
-7) Emet /Bucci
-8) Nick Logler/Olivia Fantini
-9) Donny/Karen Babbitt
-10) Morgan /Samgirl
-11) Koso/Kim Mahan
-12) Ryan Tuner/Jenna Palin
-13) Mitch/Tori 
-14) Sticky/Julie D
-15) Gus/Delaney
-16) Alex Jenkins/Annie
+1) MattPerry/Mel,Safety Orange
+2) Higgins/Audra,Gold
+3) Eric Lemoi/Meaghan Rose,Electric Blue
+4) Tom Dougherty/Katie B,Maroon
+5) Jamie Rhodes/Ariel Shaw,Forest
+6) Jared Torres/Kayla Rivard,Safety Yellow
+7) Emet /Bucci,Hot Pink
+8) Nick Logler/Olivia Fantini,Silver
+9) Donny/Karen Babbitt,Purple
+10) Morgan /Samgirl,White
+11) Koso/Kim Mahan,Red
+12) Ryan Tuner/Jenna Palin,Lime
+13) Mitch/Tori,Kelly Green
+14) Sticky/Julie D,Columbia
+15) Gus/Delaney,Navy
+16) Alex Jenkins/Annie,Graphite
 
-After the 1st round, we will snake in reverse order, with 1 change.  Higgins/Audra will get the 17 pick and MattPerry/Mel will get the 18.  They will then lose their actual 2nd round pick, so they will only pick once when the snake comes back to them.  
+After the 1st round, we will snake in reverse order, with 1 change.
+Higgins/Audra will get the 17 pick and MattPerry/Mel will get the 18. They will
+then lose their actual 2nd round pick, so they will only pick once when the
+snake comes back to them.
 
 WOMEN'S
-1) Samgirl/Morgan
-2) Katie B/Tom Dug
-3) Meaghan Rose/Eric Lemoi
-4) Ariel/Jamie
-5) Olivia/Logler
-6) Tori/Mitch
-7) Kim/Koso
-8) Mel/MattPerry
-9) Audra/Higgins
-10) Karen/Donny
-11) Julie D/Sticky
-12) Kayla/Torres
-13) Jenna/Turner
-14) Bucci/Emet
-15) Annie/QTip
-16) Delaney/Gus
+1) Samgirl/Morgan,White
+2) Katie B/Tom Dug,Maroon
+3) Meaghan Rose/Eric Lemoi,Electric Blue
+4) Ariel/Jamie,Forest
+5) Olivia/Logler,Silver
+6) Tori/Mitch,Kelly Green
+7) Kim/Koso,Red
+8) Mel/MattPerry,Safety Orange
+9) Audra/Higgins,Gold
+10) Karen/Donny,Purple
+11) Julie D/Sticky,Columbia
+12) Kayla/Torres,Safety Yellow
+13) Jenna/Turner,Lime
+14) Bucci/Emet,Hot Pink
+15) Annie/QTip,Graphite
+16) Delaney/Gus,Navy
 
-Again, order will snake on the way back, with 1 change.  Samgirl will get the 17 pick, and lose her actual 2nd round pick when the snake comes back to her.
+Again, order will snake on the way back, with 1 change. Samgirl will get the 17
+pick, and lose her actual 2nd round pick when the snake comes back to her.
 
 Teams
 Bucci/Emet = Hot Pink
