@@ -1,11 +1,16 @@
+import os
 import re
+
+ROOT_DIR = os.path.dirname(__file__)
+RIPUL_FILENAME = os.path.join(ROOT_DIR, 'ripul-2016.csv')
+PICKS_FILENAME = os.path.join(ROOT_DIR, 'picks.csv')
 
 print "processing players"
 num_males = 0
 num_females = 0
-with open('ripul-2016.csv', 'r') as file:
+with open(RIPUL_FILENAME, 'r') as file:
     for line in file:
-        if "last,first,gender" in line:
+        if "first,last,address" in line:
             print "skipping first line"
         elif ',"M",' in line:
             num_males += 1
@@ -22,7 +27,7 @@ print "-----"
 print "processing picks"
 num_males = 0
 num_females = 0
-with open('picks.csv', 'r') as file:
+with open(PICKS_FILENAME, 'r') as file:
     for line in file:
         if "gender,ign" in line:
             print "skipping first line"
