@@ -3,13 +3,13 @@ import re
 print "processing players"
 num_males = 0
 num_females = 0
-with open('ripul-2015.csv', 'r') as file:
+with open('ripul-2016.csv', 'r') as file:
     for line in file:
         if "last,first,gender" in line:
             print "skipping first line"
-        elif ",M," in line:
+        elif ',"M",' in line:
             num_males += 1
-        elif ",F," in line:
+        elif ',"F",' in line:
             num_females += 1
         else:
             print "error processing line: {}".format(line)
