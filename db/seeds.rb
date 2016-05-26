@@ -8,7 +8,7 @@
 
 require 'csv'
 
-players_filename = "#{Rails.root}/lib/assets/ripul-2015.csv"
+players_filename = "#{Rails.root}/lib/assets/ripul-2016.csv"
 num_players = 0
 CSV.foreach(players_filename, :headers => :first_row) do |player|
   p = Player.create(:first_name => player['first'], :last_name => player['last'],
