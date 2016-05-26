@@ -16,3 +16,5 @@
 
 # Ignore pre-compiled stuff
 /public/assets/*
+
+.DS_Store
