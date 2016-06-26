@@ -6,7 +6,7 @@ require 'csv'
 puts "starting"
 num_saved = 0
 CSV.open("draft_list.csv", 'w') do |csv|
-  csv << ["pick_number", "first_name", "last_name", "ripul_db_id_number", "team"]
+  csv << ["team", "gender", "pick_number", "first_name", "last_name", "ripul_db_id_number"]
   Player.all.each do |player|
     if not player.first_name or not player.last_name or not player.team or not player.team.color
       puts "error processing #{player.name}"
@@ -16,7 +16,7 @@ CSV.open("draft_list.csv", 'w') do |csv|
     if player.pick
       pick_number = player.pick.number
     end
-    csv << ['%03d' % pick_number, player.first_name, player.last_name, player.ripul_id_number, player.team.color]
+    csv << [player.team.color, player.gender, '%03d' % pick_number, player.first_name, player.last_name, player.ripul_id_number]
     num_saved += 1
   end
 end
