@@ -1,283 +1,285 @@
-pick_number,first_name,last_name,ripul_db_id_number,team
-000,Alex,Jenkins,4044,Graphite
-000,Annie,Fisher,4220,Graphite
-000,Ariel,Shaw,4217,Forest
-000,Audra,Cornell,4079,Gold
-000,Chris,Higgins,4104,Gold
-000,Delaney,Reardon,4198,Navy
-000,Devin,Kosowan,4178,Red
-000,Donnelly,Roberts,4009,Purple
-000,Emet,Schwartz,4206,Hot Pink
-000,Eric,Lemoi,4146,Electric Blue
-000,Gustav,Haflin,4113,Navy
-000,Jamie,Rhodes,4199,Forest
-000,Jared,Torres,4045,Safety Yellow
-000,Jenna,Palin,4240,Lime
-000,Julienne,Desrosiers,4250,Columbia
-000,Justine,Bucci,4245,Hot Pink
-000,Karen,Babbitt,4159,Purple
-000,Katie,Bernazzani,4048,Maroon
-000,Kayla,Rivard,4102,Safety Yellow
-000,Kim,Mahan,4105,Red
-000,Matt,Perry,4065,Safety Orange
-000,Meaghan Rose,Costello,4128,Electric Blue
-000,Melanie,Leary,4207,Safety Orange
-000,Mitch,Giroux,4155,Kelly Green
-000,Morgan,Wilbur,4182,White
-000,Nick,Logler,4258,Silver
-000,Olivia,Fantini,4279,Silver
-000,Ryan,Turner,4225,Lime
-000,Samantha,Bernardi,4117,White
-000,Sticky,DiMascio,4011,Columbia
-000,Tom,Dougherty,4008,Maroon
-000,Tori,Spofford,4004,Kelly Green
-001,Dorothy,Kimel-Scott,4261,White
-001,Steve,Panasuik,4154,Safety Orange
-002,David,Roussel,4047,Gold
-002,Jodi,Robert,4224,Maroon
-003,Erica,DeMichele,4167,Electric Blue
-003,Isaac,Peters,4254,Electric Blue
-004,Mel,Hershey,4156,Forest
-004,Shaun,Doherty,4015,Maroon
-005,Andrew,Fredrickson,4056,Forest
-005,Erin,Capra,4179,Silver
-006,Jessica,Magagnos,4152,Kelly Green
-006,Ryan,Brown,4013,Safety Yellow
-007,Becklin,Davis,4057,Red
-007,Sam,Richards,4210,Hot Pink
-008,Allie,Micheletti,4054,Safety Orange
-008,Sam,Stefanik,4256,Silver
-009,Grace,Castro,4272,Gold
-009,Jared,DiMascio,4017,Purple
-010,Hannah,Goodwin-Brown,4033,Purple
-010,Nathan,Kane,4023,White
-011,Lauren,Clem,4193,Columbia
-011,Patrick,Kunkel,4134,Red
-012,Justin,Palin,4228,Lime
-012,Tenley,Chlaupek,4086,Safety Yellow
-013,Caitlin ,Richard,4232,Lime
-013,Frankie,Noonan,4138,Kelly Green
-014,Johann,Becker,4059,Columbia
-014,Melissa,Revotskie,4271,Hot Pink
-015,Amy,Reed,4186,Graphite
-015,John-Paul,Saggal,4041,Navy
-016,Dan,Reed,4184,Graphite
-016,Nakita,Guerrouxo,4087,Navy
-017,Nikki,Silva,4194,White
-017,Russell,Brown,4051,Gold
-018,Nick,Micheletti,4053,Safety Orange
-018,Tara,Stein,4281,Navy
-019,Sophie,Kerman,4284,Graphite
-019,Stephen,Kahler,4255,Graphite
-020,Eugene,L'Heureux,4018,Navy
-020,Maijel,Proulx,4168,Hot Pink
-021,Benjamin,Kunsberg,4137,Columbia
-021,Marjorie,Pickard,4234,Lime
-022,Brianna,Balke,4283,Safety Yellow
-022,Derek,Wiseman,4012,Kelly Green
-023,Alex,Carli-Dorsey,4084,Lime
-023,Jess,Marini,4080,Columbia
-024,Jared ,Hebert,4160,Red
-024,Katie,Dahlborg,4010,Purple
-025,Celinda,Kofron,4290,Gold
-025,James,Sabean,4162,White
-026,Amy,Goldblatt,4278,Safety Orange
-026,Kyle,Webb,4082,Purple
-027,Kelsey,Reid,4241,Red
-027,Riley,Tuttle,4076,Silver
-028,Andrew,Schwartz,4275,Hot Pink
-028,Katherine,West,4034,Kelly Green
-029,Rachel,Sheinberg,4035,Silver
-029,Shubham,Garg,4091,Safety Yellow
-030,Alyssa,Neborsky,4262,Forest
-030,Eric,Peters,4115,Forest
-031,"Steve ""Tron""",Pelletier,4266,Maroon
-031,Rachel,Meyen,4235,Electric Blue
-032,Ingrid,Werge,4183,Maroon
-032,Nicholas,Tierney,4098,Electric Blue
-033,Gregory,Ohnemus,4014,Safety Orange
-033,Lily,Talerman,4119,White
-034,Jason ,Schwartz,4075,Gold
-034,June,Park,4265,Maroon
-035,Christopher,Linskey,4253,Electric Blue
-035,Grace,Sanita,4099,Electric Blue
-036,Brianna,Resto,4257,Forest
-036,Geoffrey,Whitehead,4021,Maroon
-037,Miranda,Norlin,4185,Silver
-037,Scott,Butson,4072,Forest
-038,Aubrey,McDonough,4131,Kelly Green
-038,Forrest,Kolaski,4031,Safety Yellow
-039,Jarrod`,Lynn,4127,Hot Pink
-039,Jessica,Armstrong,4270,Red
-040,Jake,Ngo,4064,Silver
-040,Tara,Ebsworth,4282,Safety Orange
-041,Mike,Hanold,4171,Purple
-041,Sasja,Jackson,4213,Gold
-042,Jon,Richards,4006,White
-043,Aaron,Joseph,4077,Red
-043,Heather,Leask,4288,Columbia
-044,Julie,Costello,4189,Safety Yellow
-044,Nate,Taylor,4181,Lime
-045,Meaghan ,Creamer,4126,Lime
-045,Pat,Shea,4174,Kelly Green
-046,Maureen,Nagle,4269,Hot Pink
-046,Troy,Prebenda,4264,Columbia
-047,Elizabeth,Fournier,4203,Graphite
-047,Garett,Simmons,4029,Navy
-048,Nate,Cressman,4163,Graphite
-049,Achina ,Stein,4280,Navy
-049,Jeff,Dao,4016,Graphite
-050,Jillian,Fournier,4202,Graphite
-050,Timothy,Helley,4007,Navy
-051,Kendrik,Lechner,4169,Columbia
-051,Samantha,Chapamn,4050,Hot Pink
-052,Lindsey,Kahler,4196,Lime
-052,Matthew,Dodge,4248,Kelly Green
-053,Emilie,Rabideau,4274,Safety Yellow
-053,Noah,Aubin,4205,Lime
-054,Adam,Cable,4149,Red
-054,Kristen,Treganowan,4242,Columbia
-055,Daniel,Roach,4123,White
-055,Perry,Gast,4144,Purple
-056,James,Acone,4038,Purple
-056,Sarah,Lamoureux,4136,Gold
-057,Lev,Gerstle,4187,Silver
-058,Alanna,Ferri,4287,Red
-058,Alexander,Stein,4267,Hot Pink
-059,Lacey,Brum,4114,Kelly Green
-059,Nathan,Brown,4112,Safety Yellow
-060,Eric,McAndrew,4173,Forest
-060,Michelle,Wu,4289,Silver
-061,Ana,Alejandre-Lara,4286,Forest
-061,Filip,Wilk,4109,Maroon
-062,Kit,Wallach,4263,Electric Blue
-062,Robert,Thottam,4046,Electric Blue
-063,Kristin,Mahan,4019,Maroon
-063,Mike,Kofron,4277,Gold
-064,Karen,Kimel-Scott,4252,White
-064,Tom,Confort,4209,Safety Orange
-065,Jon,Hills,4268,Safety Orange
-066,Di,Zou,4120,Gold
-067,Dave,Egan,4067,Electric Blue
-068,Sam,Meyen,4157,Maroon
-069,Jacob,Gottier,4139,Forest
-070,Michael,Regan,4249,Safety Yellow
-071,"Alex ""Sunshine""",Young,4121,Hot Pink
-072,Nick,Gomes,4094,Silver
-073,Matthew,Bejtlich,4180,Purple
-074,Aidan,Robichaux,4068,Purple
-074,JD,Sareault,4201,White
-075,Nick,Love,4192,Red
-076,Joe,Leighton,4081,Lime
-077,Lucas,Johnson,4143,Kelly Green
-078,Michael,Enko,4024,Columbia
-079,nate,henderson,4071,Navy
-080,Kiefer,Calisto,4223,Graphite
-081,Thomas,Walsh,4100,Graphite
-082,Joe,Barbagallo,4030,Navy
-083,Ryan,Wilson,4233,Columbia
-084,Evan,Kirby,4026,Kelly Green
-085,Erik,Dixon-Anderson,4200,Lime
-086,Jeffrey,Trivella,4166,Red
-087,Jay,Talerman,4060,White
-088,Matt,Remington,4208,Purple
-089,Elias,Dowling-Huppert,4142,Silver
-090,Rick,Ferreira,4273,Hot Pink
-091,Bill,Brown ,4069,Safety Yellow
-092,Joshua,Bolt,4161,Forest
-093,Nick,Steffen,4236,Maroon
-094,Daniel,DeFrank,4151,Electric Blue
-095,Marc,Gleason,4062,Gold
-096,Mike,Bradley,4259,Safety Orange
-097,Nick,Senich,4003,Safety Orange
-098,Zach,Raso,4116,Gold
-099,Timothy,Duhon,4244,Electric Blue
-100,Ryan,Brown,4150,Maroon
-101,Ben,Weinstein,4118,Forest
-102,Brandon,DiGiulio,4219,Safety Yellow
-103,Stephen,Waite,4092,Hot Pink
-104,Matthew,Kelleher,4212,Silver
-105,Ryan,McDonough,4175,Purple
-106,Aron,Griffis,4039,White
-107,Matthew,Clark,4122,Red
-108,Ian,Brown,4058,Lime
-109,Michael,Mason,4227,Kelly Green
-110,Lucas,Bledsoe,4130,Columbia
-111,Dan,Meyen,4215,Navy
-112,Jeffrey,Chai,4096,Graphite
-113,Lauren,Rouxinol,4106,Navy
-113,Rahul,Kurl,4164,Graphite
-114,Andrew,McVay,4222,Navy
-115,Sean,Lennon,4063,Columbia
-116,Noah,Chartier,4176,Kelly Green
-117,Trevor,Mason,4148,Lime
-118,Chip,Dietrich,4032,Red
-119,Ryan,Jarzombek,4158,White
-120,Nick,Hare,4230,Purple
-121,Raymond,Richardson,4231,Silver
-122,Christopher,Bloom,4005,Hot Pink
-123,Nathan,Jepson,4238,Safety Yellow
-124,Nick,Jouett,4141,Forest
-125,Nicholas,Reed,4229,Maroon
-126,Daniel,Hawkins,4097,Electric Blue
-127,Ted ,Phillips,4243,Gold
-128,Scott,Martin,4022,Safety Orange
-129,Brian,Hill,4135,Safety Orange
-130,Kevin,Pelletier,4052,Gold
-131,jacob,Agnew,4083,Electric Blue
-132,Pete,Skwirz,4108,Maroon
-133,Jordan,Weinberg,4165,Forest
-134,Cameron,Glad,4195,Safety Yellow
-135,Joshua,Wizer-Vecchi,4124,Hot Pink
-136,Neil,Chandra,4147,Silver
-137,Jon,McCartney,4037,Purple
-138,Thomas,Dickerson,4025,White
-139,cooper,bennet,4177,Red
-140,Louis,Barone III,4088,Lime
-141,Tom,Capparella,4073,Kelly Green
-142,Josh ,Gangemi,4049,Columbia
-143,Henry,DuBois,4133,Navy
-144,Ricky,Young,4129,Graphite
-145,Kevin,King,4074,Graphite
-146,Erick,Meyen,4216,Navy
-147,Griffin,Hoskins,4191,Columbia
-148,Joe,Langella,4093,Kelly Green
-149,Brian,Dorsky,4246,Lime
-150,Jonathan,Lewis,4221,Red
-151,Scott,Connolly,4043,White
-152,Scott,Moody,4132,Purple
-153,Dan,Cavanagh,4188,Silver
-154,Kevin,Nagle ,4276,Hot Pink
-155,Collin,Brown,4125,Safety Yellow
-156,Gabe,Faria,4218,Forest
-157,Stephan,Saggal,4107,Maroon
-158,Corey,Hawkins,4111,Electric Blue
-159,Dave,Kingaley,4237,Gold
-160,Andrew,Santos ,4190,Safety Orange
-161,matty,brier,4204,Safety Orange
-162,William,Robichaux,4055,Gold
-163,Bryan ,Baldaro,4110,Electric Blue
-164,Matt,Reed,4239,Maroon
-165,Cody,Dyl,4095,Forest
-166,Jon,Colavita,4170,Safety Yellow
-167,Ethan,Deyle,4070,Hot Pink
-168,Fred,Orwiler,4285,Silver
-169,Bill,Binder,4078,Purple
-170,Matthew,Harrison,4040,White
-171,Taylor,Mazzali,4027,Red
-172,Dustin,Oerman,4103,Lime
-173,Andrew,Nersessian,4042,Kelly Green
-174,Michael,Spremulli,4020,Columbia
-175,Dennis,Poirier III,4028,Navy
-176,Charles,Meyer,4226,Graphite
-184,Dave,Bird,4260,Purple
-209,Ron,Zangari,4145,Graphite
-219,Shubham,Garg,4090,Safety Yellow
-225,Christen,Scanlon,4153,Safety Orange
-226,Ryan,Kelly,4197,Gold
-230,Shubham,Garg,4089,Safety Yellow
-233,Topher,Brown,4140,Purple
-234,Jay,Talerman,4061,White
-236,Alex,Carli-Dorsey,4085,Lime
-237,Chris,Baker,4066,Kelly Green
-240,Thomas,Walsh,4101,Graphite
+team,gender,pick_number,first_name,last_name,ripul_db_id_number
+Columbia,F,000,Julienne,Desrosiers,4250
+Columbia,F,011,Lauren,Clem,4193
+Columbia,F,023,Jess,Marini,4080
+Columbia,F,043,Heather,Leask,4288
+Columbia,F,054,Kristen,Treganowan,4242
+Columbia,M,000,Sticky,DiMascio,4011
+Columbia,M,014,Johann,Becker,4059
+Columbia,M,021,Benjamin,Kunsberg,4137
+Columbia,M,046,Troy,Prebenda,4264
+Columbia,M,051,Kendrik,Lechner,4169
+Columbia,M,078,Michael,Enko,4024
+Columbia,M,083,Ryan,Wilson,4233
+Columbia,M,110,Lucas,Bledsoe,4130
+Columbia,M,115,Sean,Lennon,4063
+Columbia,M,142,Josh ,Gangemi,4049
+Columbia,M,147,Griffin,Hoskins,4191
+Columbia,M,174,Michael,Spremulli,4020
+Electric Blue,F,000,Meaghan Rose,Costello,4128
+Electric Blue,F,003,Erica,DeMichele,4167
+Electric Blue,F,031,Rachel,Meyen,4235
+Electric Blue,F,035,Grace,Sanita,4099
+Electric Blue,F,062,Kit,Wallach,4263
+Electric Blue,M,000,Eric,Lemoi,4146
+Electric Blue,M,003,Isaac,Peters,4254
+Electric Blue,M,032,Nicholas,Tierney,4098
+Electric Blue,M,035,Christopher,Linskey,4253
+Electric Blue,M,062,Robert,Thottam,4046
+Electric Blue,M,067,Dave,Egan,4067
+Electric Blue,M,094,Daniel,DeFrank,4151
+Electric Blue,M,099,Timothy,Duhon,4244
+Electric Blue,M,126,Daniel,Hawkins,4097
+Electric Blue,M,131,jacob,Agnew,4083
+Electric Blue,M,158,Corey,Hawkins,4111
+Electric Blue,M,163,Bryan ,Baldaro,4110
+Forest,F,000,Ariel,Shaw,4217
+Forest,F,004,Mel,Hershey,4156
+Forest,F,030,Alyssa,Neborsky,4262
+Forest,F,036,Brianna,Resto,4257
+Forest,F,061,Ana,Alejandre-Lara,4286
+Forest,M,000,Jamie,Rhodes,4199
+Forest,M,005,Andrew,Fredrickson,4056
+Forest,M,030,Eric,Peters,4115
+Forest,M,037,Scott,Butson,4072
+Forest,M,060,Eric,McAndrew,4173
+Forest,M,069,Jacob,Gottier,4139
+Forest,M,092,Joshua,Bolt,4161
+Forest,M,101,Ben,Weinstein,4118
+Forest,M,124,Nick,Jouett,4141
+Forest,M,133,Jordan,Weinberg,4165
+Forest,M,156,Gabe,Faria,4218
+Forest,M,165,Cody,Dyl,4095
+Gold,F,000,Audra,Cornell,4079
+Gold,F,009,Grace,Castro,4272
+Gold,F,025,Celinda,Kofron,4290
+Gold,F,041,Sasja,Jackson,4213
+Gold,F,056,Sarah,Lamoureux,4136
+Gold,M,000,Chris,Higgins,4104
+Gold,M,002,David,Roussel,4047
+Gold,M,017,Russell,Brown,4051
+Gold,M,034,Jason ,Schwartz,4075
+Gold,M,063,Mike,Kofron,4277
+Gold,M,066,Di,Zou,4120
+Gold,M,095,Marc,Gleason,4062
+Gold,M,098,Zach,Raso,4116
+Gold,M,127,Ted ,Phillips,4243
+Gold,M,130,Kevin,Pelletier,4052
+Gold,M,159,Dave,Kingaley,4237
+Gold,M,162,William,Robichaux,4055
+Gold,M,226,Ryan,Kelly,4197
+Graphite,F,000,Annie,Fisher,4220
+Graphite,F,015,Amy,Reed,4186
+Graphite,F,019,Sophie,Kerman,4284
+Graphite,F,047,Elizabeth,Fournier,4203
+Graphite,F,050,Jillian,Fournier,4202
+Graphite,M,000,Alex,Jenkins,4044
+Graphite,M,016,Dan,Reed,4184
+Graphite,M,019,Stephen,Kahler,4255
+Graphite,M,048,Nate,Cressman,4163
+Graphite,M,049,Jeff,Dao,4016
+Graphite,M,080,Kiefer,Calisto,4223
+Graphite,M,081,Thomas,Walsh,4100
+Graphite,M,112,Jeffrey,Chai,4096
+Graphite,M,113,Rahul,Kurl,4164
+Graphite,M,144,Ricky,Young,4129
+Graphite,M,145,Kevin,King,4074
+Graphite,M,176,Charles,Meyer,4226
+Graphite,M,209,Ron,Zangari,4145
+Graphite,M,240,Thomas,Walsh,4101
+Hot Pink,F,000,Justine,Bucci,4245
+Hot Pink,F,014,Melissa,Revotskie,4271
+Hot Pink,F,020,Maijel,Proulx,4168
+Hot Pink,F,046,Maureen,Nagle,4269
+Hot Pink,F,051,Samantha,Chapamn,4050
+Hot Pink,M,000,Emet,Schwartz,4206
+Hot Pink,M,007,Sam,Richards,4210
+Hot Pink,M,028,Andrew,Schwartz,4275
+Hot Pink,M,039,Jarrod`,Lynn,4127
+Hot Pink,M,058,Alexander,Stein,4267
+Hot Pink,M,071,"Alex ""Sunshine""",Young,4121
+Hot Pink,M,090,Rick,Ferreira,4273
+Hot Pink,M,103,Stephen,Waite,4092
+Hot Pink,M,122,Christopher,Bloom,4005
+Hot Pink,M,135,Joshua,Wizer-Vecchi,4124
+Hot Pink,M,154,Kevin,Nagle ,4276
+Hot Pink,M,167,Ethan,Deyle,4070
+Kelly Green,F,000,Tori,Spofford,4004
+Kelly Green,F,006,Jessica,Magagnos,4152
+Kelly Green,F,028,Katherine,West,4034
+Kelly Green,F,038,Aubrey,McDonough,4131
+Kelly Green,F,059,Lacey,Brum,4114
+Kelly Green,M,000,Mitch,Giroux,4155
+Kelly Green,M,013,Frankie,Noonan,4138
+Kelly Green,M,022,Derek,Wiseman,4012
+Kelly Green,M,045,Pat,Shea,4174
+Kelly Green,M,052,Matthew,Dodge,4248
+Kelly Green,M,077,Lucas,Johnson,4143
+Kelly Green,M,084,Evan,Kirby,4026
+Kelly Green,M,109,Michael,Mason,4227
+Kelly Green,M,116,Noah,Chartier,4176
+Kelly Green,M,141,Tom,Capparella,4073
+Kelly Green,M,148,Joe,Langella,4093
+Kelly Green,M,173,Andrew,Nersessian,4042
+Kelly Green,M,237,Chris,Baker,4066
+Lime,F,000,Jenna,Palin,4240
+Lime,F,013,Caitlin ,Richard,4232
+Lime,F,021,Marjorie,Pickard,4234
+Lime,F,045,Meaghan ,Creamer,4126
+Lime,F,052,Lindsey,Kahler,4196
+Lime,M,000,Ryan,Turner,4225
+Lime,M,012,Justin,Palin,4228
+Lime,M,023,Alex,Carli-Dorsey,4084
+Lime,M,044,Nate,Taylor,4181
+Lime,M,053,Noah,Aubin,4205
+Lime,M,076,Joe,Leighton,4081
+Lime,M,085,Erik,Dixon-Anderson,4200
+Lime,M,108,Ian,Brown,4058
+Lime,M,117,Trevor,Mason,4148
+Lime,M,140,Louis,Barone III,4088
+Lime,M,149,Brian,Dorsky,4246
+Lime,M,172,Dustin,Oerman,4103
+Lime,M,236,Alex,Carli-Dorsey,4085
+Maroon,F,000,Katie,Bernazzani,4048
+Maroon,F,002,Jodi,Robert,4224
+Maroon,F,032,Ingrid,Werge,4183
+Maroon,F,034,June,Park,4265
+Maroon,F,063,Kristin,Mahan,4019
+Maroon,M,000,Tom,Dougherty,4008
+Maroon,M,004,Shaun,Doherty,4015
+Maroon,M,031,"Steve ""Tron""",Pelletier,4266
+Maroon,M,036,Geoffrey,Whitehead,4021
+Maroon,M,061,Filip,Wilk,4109
+Maroon,M,068,Sam,Meyen,4157
+Maroon,M,093,Nick,Steffen,4236
+Maroon,M,100,Ryan,Brown,4150
+Maroon,M,125,Nicholas,Reed,4229
+Maroon,M,132,Pete,Skwirz,4108
+Maroon,M,157,Stephan,Saggal,4107
+Maroon,M,164,Matt,Reed,4239
+Navy,F,000,Delaney,Reardon,4198
+Navy,F,016,Nakita,Guerrouxo,4087
+Navy,F,018,Tara,Stein,4281
+Navy,F,049,Achina ,Stein,4280
+Navy,F,113,Lauren,Rouxinol,4106
+Navy,M,000,Gustav,Haflin,4113
+Navy,M,015,John-Paul,Saggal,4041
+Navy,M,020,Eugene,L'Heureux,4018
+Navy,M,047,Garett,Simmons,4029
+Navy,M,050,Timothy,Helley,4007
+Navy,M,079,nate,henderson,4071
+Navy,M,082,Joe,Barbagallo,4030
+Navy,M,111,Dan,Meyen,4215
+Navy,M,114,Andrew,McVay,4222
+Navy,M,143,Henry,DuBois,4133
+Navy,M,146,Erick,Meyen,4216
+Navy,M,175,Dennis,Poirier III,4028
+Purple,F,000,Karen,Babbitt,4159
+Purple,F,010,Hannah,Goodwin-Brown,4033
+Purple,F,024,Katie,Dahlborg,4010
+Purple,F,055,Perry,Gast,4144
+Purple,F,074,Aidan,Robichaux,4068
+Purple,M,000,Donnelly,Roberts,4009
+Purple,M,009,Jared,DiMascio,4017
+Purple,M,026,Kyle,Webb,4082
+Purple,M,041,Mike,Hanold,4171
+Purple,M,056,James,Acone,4038
+Purple,M,073,Matthew,Bejtlich,4180
+Purple,M,088,Matt,Remington,4208
+Purple,M,105,Ryan,McDonough,4175
+Purple,M,120,Nick,Hare,4230
+Purple,M,137,Jon,McCartney,4037
+Purple,M,152,Scott,Moody,4132
+Purple,M,169,Bill,Binder,4078
+Purple,M,184,Dave,Bird,4260
+Purple,M,201,Alexis,Miranda,4214
+Purple,M,216,Justin,Kunkel,4172
+Purple,M,233,Topher,Brown,4140
+Red,F,000,Kim,Mahan,4105
+Red,F,007,Becklin,Davis,4057
+Red,F,027,Kelsey,Reid,4241
+Red,F,039,Jessica,Armstrong,4270
+Red,F,058,Alanna,Ferri,4287
+Red,M,000,Devin,Kosowan,4178
+Red,M,011,Patrick,Kunkel,4134
+Red,M,024,Jared ,Hebert,4160
+Red,M,043,Aaron,Joseph,4077
+Red,M,054,Adam,Cable,4149
+Red,M,075,Nick,Love,4192
+Red,M,086,Jeffrey,Trivella,4166
+Red,M,107,Matthew,Clark,4122
+Red,M,118,Chip,Dietrich,4032
+Red,M,139,cooper,bennet,4177
+Red,M,150,Jonathan,Lewis,4221
+Red,M,171,Taylor,Mazzali,4027
+Safety Orange,F,000,Melanie,Leary,4207
+Safety Orange,F,008,Allie,Micheletti,4054
+Safety Orange,F,026,Amy,Goldblatt,4278
+Safety Orange,F,040,Tara,Ebsworth,4282
+Safety Orange,M,000,Matt,Perry,4065
+Safety Orange,M,001,Steve,Panasuik,4154
+Safety Orange,M,018,Nick,Micheletti,4053
+Safety Orange,M,033,Gregory,Ohnemus,4014
+Safety Orange,M,064,Tom,Confort,4209
+Safety Orange,M,065,Jon,Hills,4268
+Safety Orange,M,096,Mike,Bradley,4259
+Safety Orange,M,097,Nick,Senich,4003
+Safety Orange,M,128,Scott,Martin,4022
+Safety Orange,M,129,Brian,Hill,4135
+Safety Orange,M,160,Andrew,Santos ,4190
+Safety Orange,M,161,matty,brier,4204
+Safety Orange,M,225,Christen,Scanlon,4153
+Safety Yellow,F,000,Kayla,Rivard,4102
+Safety Yellow,F,012,Tenley,Chlaupek,4086
+Safety Yellow,F,022,Brianna,Balke,4283
+Safety Yellow,F,044,Julie,Costello,4189
+Safety Yellow,F,053,Emilie,Rabideau,4274
+Safety Yellow,M,000,Jared,Torres,4045
+Safety Yellow,M,006,Ryan,Brown,4013
+Safety Yellow,M,029,Shubham,Garg,4091
+Safety Yellow,M,038,Forrest,Kolaski,4031
+Safety Yellow,M,059,Nathan,Brown,4112
+Safety Yellow,M,070,Michael,Regan,4249
+Safety Yellow,M,091,Bill,Brown ,4069
+Safety Yellow,M,102,Brandon,DiGiulio,4219
+Safety Yellow,M,123,Nathan,Jepson,4238
+Safety Yellow,M,134,Cameron,Glad,4195
+Safety Yellow,M,155,Collin,Brown,4125
+Safety Yellow,M,166,Jon,Colavita,4170
+Safety Yellow,M,219,Shubham,Garg,4090
+Safety Yellow,M,230,Shubham,Garg,4089
+Silver,F,000,Olivia,Fantini,4279
+Silver,F,005,Erin,Capra,4179
+Silver,F,029,Rachel,Sheinberg,4035
+Silver,F,037,Miranda,Norlin,4185
+Silver,F,060,Michelle,Wu,4289
+Silver,M,000,Nick,Logler,4258
+Silver,M,008,Sam,Stefanik,4256
+Silver,M,027,Riley,Tuttle,4076
+Silver,M,040,Jake,Ngo,4064
+Silver,M,057,Lev,Gerstle,4187
+Silver,M,072,Nick,Gomes,4094
+Silver,M,089,Elias,Dowling-Huppert,4142
+Silver,M,104,Matthew,Kelleher,4212
+Silver,M,121,Raymond,Richardson,4231
+Silver,M,136,Neil,Chandra,4147
+Silver,M,153,Dan,Cavanagh,4188
+Silver,M,168,Fred,Orwiler,4285
+White,F,000,Samantha,Bernardi,4117
+White,F,001,Dorothy,Kimel-Scott,4261
+White,F,017,Nikki,Silva,4194
+White,F,033,Lily,Talerman,4119
+White,F,064,Karen,Kimel-Scott,4252
+White,M,000,Morgan,Wilbur,4182
+White,M,010,Nathan,Kane,4023
+White,M,025,James,Sabean,4162
+White,M,042,Jon,Richards,4006
+White,M,055,Daniel,Roach,4123
+White,M,074,JD,Sareault,4201
+White,M,087,Jay,Talerman,4060
+White,M,106,Aron,Griffis,4039
+White,M,119,Ryan,Jarzombek,4158
+White,M,138,Thomas,Dickerson,4025
+White,M,151,Scott,Connolly,4043
+White,M,170,Matthew,Harrison,4040
+White,M,234,Jay,Talerman,4061
